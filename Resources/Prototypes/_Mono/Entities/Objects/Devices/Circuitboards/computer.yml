@@ -1,8 +1,0 @@
-- type: entity
-  parent: [ BaseComputerCircuitboard, BaseMajorContraband ]
-  id: ShuttleCommsComputerCircuitboard
-  name: broadband communications computer board
-  description: A computer printed circuit board for a broadband communications console.
-  components:
-    - type: ComputerBoard
-      prototype: ShuttleComputerComms

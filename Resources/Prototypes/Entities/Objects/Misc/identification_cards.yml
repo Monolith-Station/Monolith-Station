@@ -812,8 +812,8 @@
     - NuclearOperative
     - SyndicateAgent
     - Wizard
-    - MercL1 # mono
-    - MercL2 # mono
-    - MercL3 # mono
+    # Goobstation
+    - NanotrasenRepresentative
+    - BlueshieldOfficer
   - type: NanoChatCard # DeltaV
     notificationsMuted: true
