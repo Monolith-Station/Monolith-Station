@@ -150,7 +150,7 @@ function writeChangelog(entry) {
     // Write updated changelogs file
     fs.writeFileSync(
         `../../${process.env.CHANGELOG_DIR}`,
-        "Name: Gooblog\nOrder: -1\nEntries:\n" + // IF YOU ARE A FORK, CHANGE THIS!!!!!!!!!!!!
+        "Name: Monolith\nOrder: -1\nEntries:\n" +
             yaml.dump(data.Entries, { indent: 2 }).replace(/^---/, "")
     );
 }
