@@ -13,6 +13,6 @@
 - type: accessGroup 
   id: MercAA
   tags:
-    - MercT1
-    - MercT2
-    - MercT3
+    - MercL1
+    - MercL2
+    - MercL3

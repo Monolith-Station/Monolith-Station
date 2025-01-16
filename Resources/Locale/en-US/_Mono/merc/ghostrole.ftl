@@ -7,6 +7,9 @@ ghost-role-information-merc-name-l3 = Mercenary Commander
 
 ghost-role-information-merc-description = Answer to the highest bidder, make cash.
 
+# job shit
 
-job-name-merc = Mercenary
+job-name-merc-l1 = L1 Mercenary
+job-name-merc-l2 = L2 Mercenary
+job-name-merc-l3 = L3 Mercenary
 job-description-merc = u shouldnt be seeing this

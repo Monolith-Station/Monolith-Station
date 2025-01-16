@@ -1,21 +1,21 @@
-# T1
+# L1
 
 - type: job
-  id: MercT1
-  name: job-name-merc
+  id: MercL1
+  name: job-name-merc-l1
   description: job-description-merc
   playTimeTracker: JobMercenaryL1
   setPreference: false
-  startingGear: MercT1Gear
+  startingGear: MercL1Gear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-hire
   canBeAntag: false
   access:
-  - MercT1
+  - MercL1
   - Maintenance
 
 - type: startingGear
-  id: MercT1Gear
+  id: MercL1Gear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMercenary
     back: ClothingBackpackMerc
@@ -28,27 +28,27 @@
     id: MercL1IDCard
     belt: ClothingBeltMercWebbing
 
-# T2
+# L2
 
 - type: job
-  id: MercT2
-  name: job-name-merc
+  id: MercL2
+  name: job-name-merc-l2
   description: job-description-merc
   playTimeTracker: JobMercenaryL2
   setPreference: false
-  startingGear: MercT2Gear
+  startingGear: MercL2Gear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-hire
   canBeAntag: false
   access:
-  - MercT1
-  - MercT2
+  - MercL1
+  - MercL2
   - Maintenance
 
 - type: startingGear
-  id: MercT2Gear
+  id: MercL2Gear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMercenary
+    jumpsuit: ClothingUniformHecu
     back: ClothingBackpackMerc
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesGlassesMedSec
@@ -59,26 +59,26 @@
     id: MercL2IDCard
     belt: ClothingBeltMercWebbing
 
-# T3
+# L3
 
 - type: job
-  id: MercT3
-  name: job-name-merc
+  id: MercL3
+  name: job-name-merc-l3
   description: job-description-merc
   playTimeTracker: JobMercenaryL3
   setPreference: false
-  startingGear: MercT3Gear
+  startingGear: MercL3Gear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-hire
   canBeAntag: false
   access:
-  - MercT1
-  - MercT2
-  - MercT3
+  - MercL1
+  - MercL2
+  - MercL3
   - Maintenance
 
 - type: startingGear
-  id: MercT3Gear
+  id: MercL3Gear
   equipment:
     jumpsuit: ClothingUniformHecu
     back: ClothingBackpackMerc
@@ -89,4 +89,4 @@
     outerClothing: ClothingOuterVestWeb
     shoes: ClothingShoesBootsCombatFilled
     id: MercL3IDCard
-    belt: ClothingBeltMercWebbing
+    belt: ClothingBeltMilitaryWebbing
