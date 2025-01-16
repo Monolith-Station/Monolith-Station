@@ -1,0 +1,44 @@
+- type: entity
+  parent: IDCardStandard
+  id: MercL1IDCard
+  name: mercenary L1 access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: Access
+    tags:
+    - MercL1
+    - Maintenance
+
+- type: entity
+  parent: IDCardStandard
+  id: MercL2IDCard
+  name: mercenary L2 access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: Access
+    tags:
+    - MercL1
+    - MercL2
+    - Maintenance
+
+- type: entity
+  parent: IDCardStandard
+  id: MercL3IDCard
+  name: mercenary L3 access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: Access
+    tags:
+    - MercL1
+    - MercL2
+    - MercL3
+    - Maintenance

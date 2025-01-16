@@ -1,0 +1,89 @@
+# l1
+
+- type: entity
+  id: RandomHumanoidMercL1Spawner
+  name: Mercenary
+  suffix: Admeme, L1 Access
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: full
+    - type: RandomHumanoidSpawner
+      settings: MercT1
+
+- type: randomHumanoidSettings
+  id: MercT1
+  parent: EventHumanoid
+  components:
+    - type: GhostRole
+      name: ghost-role-information-merc-name-l1
+      description: ghost-role-information-merc-description
+      rules: ghost-role-information-merc-rules-low
+      raffle:
+        settings: short
+    - type: Loadout
+      prototypes: [ MercT1Gear ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary
+
+# l2
+
+- type: entity
+  id: RandomHumanoidMercL2Spawner
+  name: Mercenary
+  suffix: Admeme, L2 Access
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: full
+    - type: RandomHumanoidSpawner
+      settings: MercT2
+
+- type: randomHumanoidSettings
+  id: MercT2
+  parent: EventHumanoid
+  components:
+    - type: GhostRole
+      name: ghost-role-information-merc-name-l2
+      description: ghost-role-information-merc-description
+      rules: ghost-role-information-merc-rules-low
+      raffle:
+        settings: short
+    - type: Loadout
+      prototypes: [ MercT2Gear ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary
+
+# l3
+
+- type: entity
+  id: RandomHumanoidMercL3Spawner
+  name: Mercenary
+  suffix: Admeme, L3 Access
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: full
+    - type: RandomHumanoidSpawner
+      settings: MercT3
+
+- type: randomHumanoidSettings
+  id: MercT3
+  parent: EventHumanoid
+  components:
+    - type: GhostRole
+      name: ghost-role-information-merc-name-l3
+      description: ghost-role-information-merc-description
+      rules: ghost-role-information-merc-rules-high
+      raffle:
+        settings: short
+    - type: Loadout
+      prototypes: [ MercT3Gear ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary

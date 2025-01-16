@@ -1,0 +1,22 @@
+dont map debug shit in ur shit obviously
+admeme stuff is probably big no no too most of the time unless u can make it fit
+
+if ur admeme map isnt something that replaces the station map or basically replaces its purpose (rimworld admemes for example) try to minimize mapping stuff that can indirectly affect station like comms console or R&D server (u can access any R&D server anywhere)
+this doesnt mean ur never allowed to, CC shuttles would have comms console access for example obviously, but random local shuttle in the sector wouldnt have access to evac shuttle comms obviously
+
+for ur local shuttles that arent CC affiliated use shit like local broadband consoles (they cant call evac and they have a seperate announcement thing so u know its not from station)
+anything else gear wise is free game. map pulse rifles. map L6C ROWs. i dont care. lock them up good though. dont use invulnerable shit though. make it something u can bypass IC.
+
+if ur gonna make new prototypes/scripts for ur unique maps just put them in _Mono folders. u dont need to label it with a comment or whatever.
+try not to make ur shit invincible. set barriers. try not to spam shit like ship guns/RTGs/APUs/generators (the infinite 15kw/3kw/debug kind).
+this DOES NOT mean ur not allowed to though, just dont go too far. if u can use something else in the situation, use something else. for ur Giant Fucking Admeme Ship dont be using fucking 30 15kw generators, put a tesla/AME/whatever setup in there instead.
+its much more interesting to find a tesla setup or whatever than it is to find a giant box of 30kw generators, both IC and OOC.
+
+u are allowed to build admin/debug areas outside ur playable area though for stuff like atmos control you dont want players sabotaging (for like a pvp map or whatever)
+or for power control
+try to use components for this instead like planet atmos ones. nukeops planet does this well. go off of that. invincible walls are fine for shit like map barriers too.
+for ur invincible shit though atleast cover it with something. rocks, walls, i dont care. just cover it up with anything.
+
+
+yeah i dont know what else if u have questions or whatever ask me on discord _starch_
+or ask another maint if we ever get more
