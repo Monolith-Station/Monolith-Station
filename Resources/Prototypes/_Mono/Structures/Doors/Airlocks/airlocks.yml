@@ -1,0 +1,26 @@
+- type: entity
+  parent: AirlockHatchSyndicate
+  id: AirlockMercL1
+  suffix: MercL1
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMercL1 ]
+
+- type: entity
+  parent: AirlockHatchSyndicate
+  id: AirlockMercL2
+  suffix: MercL2
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMercL2 ]
+
+- type: entity
+  parent: AirlockHatchSyndicate
+  id: AirlockMercL3
+  suffix: MercL3
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMercL3 ]

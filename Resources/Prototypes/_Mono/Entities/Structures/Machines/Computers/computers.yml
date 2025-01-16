@@ -1,0 +1,16 @@
+- type: entity
+  parent: ComputerComms
+  id: ShuttleComputerComms
+  name: broadband communications computer
+  description: A console that broadcasts on local radio frequencies.
+  components:
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-shuttle
+    color: "#ff0062"
+    canShuttle: false
+    global: true
+    sound: /Audio/Announcements/announce.ogg
+  - type: Computer
+    board: ShuttleCommsComputerCircuitboard
+  - type: AccessReader
+    access: [[ "Maintenance" ]]

@@ -122,6 +122,9 @@
     - NanotrasenRepresentative # goobstation
     - BlueshieldOfficer # goobstation
     - Wizard
+    - MercT1 # mono
+    - MercT2 # mono
+    - MercT3 # mono
     privilegedIdSlot:
       name: id-card-console-privileged-id
       ejectSound: /Audio/Machines/id_swipe.ogg

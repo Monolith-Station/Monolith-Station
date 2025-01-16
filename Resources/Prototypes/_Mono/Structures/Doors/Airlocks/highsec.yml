@@ -1,0 +1,17 @@
+- type: entity
+  parent: HighSecDoor
+  id: HighSecMercL2Locked
+  suffix: MercL2, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMercL2 ]
+
+- type: entity
+  parent: HighSecDoor
+  id: HighSecMercL3Locked
+  suffix: MercL3, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMercL3 ]
