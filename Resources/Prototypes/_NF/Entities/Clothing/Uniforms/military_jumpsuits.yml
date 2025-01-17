@@ -1628,7 +1628,7 @@
 ## WILDCARDS
 
 - type: entity
-  parent: ClothingUniformJumpsuit # mono - fix
+  parent: ClothingUniformJumpsuitMercenary # mono - fix
   id: ClothingUniformJumpsuitMilitaryTurtleneckMercenary
   suffix: Military
   components:
@@ -1673,7 +1673,7 @@
       - state: equipped-belt-buckle
 
 - type: entity
-  parent: ClothingUniformJumpsuitMerc # mono - fix
+  parent: ClothingUniformJumpsuitMercenary # mono - fix
   id: ClothingUniformJumpsuitMilitaryTurtleneckMercenaryMedic
   name: mercenary medic jumpsuit
   suffix: Military
@@ -1727,7 +1727,7 @@
         color: "#5a96bb"
 
 - type: entity
-  parent: ClothingUniformJumpsuit # mono - fix
+  parent: ClothingUniformJumpsuitMercenary # mono - fix
   id: ClothingUniformJumpsuitMilitaryTurtleneckMercenaryCaptain
   name: mercenary captain jumpsuit
   suffix: Military
@@ -1793,7 +1793,7 @@
         color: "#ffce5b"
 
 - type: entity
-  parent: ClothingUniformJumpsuit # mono - fix
+  parent: ClothingUniformJumpsuitMercenary # mono - fix
   id: ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenary
   suffix: Military, Blue
   components:
@@ -1838,7 +1838,7 @@
       - state: equipped-belt-buckle
 
 - type: entity
-  parent: ClothingUniformJumpsuit # mono - fix
+  parent: ClothingUniformJumpsuitMercenary # mono - fix
   id: ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryMedic
   name: mercenary medic jumpsuit
   suffix: Military, Blue
@@ -1892,7 +1892,7 @@
         color: "#aeb7bd"
 
 - type: entity
-  parent: ClothingUniformJumpsuit # mono - fix
+  parent: ClothingUniformJumpsuitMercenary # mono - fix
   id: ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryCaptain
   name: mercenary captain jumpsuit
   suffix: Military, Blue
@@ -1958,6 +1958,6 @@
         color: "#ffce5b"
 
 # mono - some jumpsuits are deleted
-# mono - this is because frontier does stupid shit (for example, the fix tag by every merc thing is because frontier fucking changed all their IDs with merc to say mercenary instead of merc)
+# mono - this is because frontier does stupid shit i am too lazy to fix
 # mono - deleted jumpsuits are the mailcarrier one and pilot one because we dont have the base jumpsuit
 # mono - SR jumpsuit is also edited to HoP's jumpsuit because we do not have SR

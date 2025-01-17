@@ -5,8 +5,8 @@
   components:
   - type: Sprite
     layers:
-    - state: default
-    - state: idpassenger
+    - state: merc1
+    - state: idmerc
   - type: Access
     tags:
     - MercL1
@@ -19,8 +19,8 @@
   components:
   - type: Sprite
     layers:
-    - state: default
-    - state: idpassenger
+    - state: merc2
+    - state: idmerc
   - type: Access
     tags:
     - MercL1
@@ -34,8 +34,8 @@
   components:
   - type: Sprite
     layers:
-    - state: default
-    - state: idpassenger
+    - state: merc3
+    - state: idmerc
   - type: Access
     tags:
     - MercL1

@@ -49,7 +49,7 @@
   id: MercL2Gear
   equipment:
     jumpsuit: ClothingUniformHecu
-    back: ClothingBackpackMerc
+    back: ClothingBackpackERTLeader
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesGlassesMedSec
     ears: ClothingHeadsetFreelance
@@ -57,7 +57,7 @@
     outerClothing: ClothingOuterVestWeb
     shoes: ClothingShoesBootsCombatFilled
     id: MercL2IDCard
-    belt: ClothingBeltMercWebbing
+    belt: ClothingBeltMilitaryWebbing
 
 # L3
 
@@ -80,8 +80,8 @@
 - type: startingGear
   id: MercL3Gear
   equipment:
-    jumpsuit: ClothingUniformHecu
-    back: ClothingBackpackMerc
+    jumpsuit: ClothingUniformJumpsuitMilitaryContractorTac
+    back: ClothingBackpackERTLeader
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesGlassesMedSec
     ears: ClothingHeadsetFreelance
