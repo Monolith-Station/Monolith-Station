@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledShotgun
-  name: Bulldog bundle
-  description: "Lean and mean: Contains the popular Bulldog Shotgun, a 12g beanbag drum and 3 12g buckshot drums." #, and a pair of Thermal Imaging Goggles.
+  name: KSG-87 bundle # mono
+  description: "Lean and mean: Contains the popular KSG-87 Shotgun, a 12g beanbag drum and 3 12g buckshot drums." #, and a pair of Thermal Imaging Goggles. # mono
   components:
   - type: StorageFill
     contents:
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledLMG
-  name: L6 Saw bundle
-  description: "More dakka: The iconic L6 lightmachinegun, bundled with 2 box magazines."
+  name: L6B-SAW bundle # mono
+  description: "More dakka: The iconic L6B-SAW lightmachinegun, bundled with 2 box magazines." # mono
   components:
   - type: StorageFill
     contents:
@@ -85,7 +85,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
-  name: China-Lake bundle
+  name: GLM-30 bundle # mono
   description: "An old China-Lake grenade launcher bundled with 11 rounds of various destruction capability."
   components:
   - type: StorageFill
@@ -118,7 +118,7 @@
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilled
   name: ammo bundle
-  description: "Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, 2 ammo boxes for the L6 SAW, and 3 mags for the Burner."
+  description: "Reloading! Contains 4 magazines for the C-20r, 4 drums for the KSG-87, 2 ammo boxes for the L6B-SAW, and 3 mags for the Burner." # mono
   components:
   - type: StorageFill
     contents:

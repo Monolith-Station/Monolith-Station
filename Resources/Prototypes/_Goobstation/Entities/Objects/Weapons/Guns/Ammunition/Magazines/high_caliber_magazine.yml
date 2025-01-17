@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineHighCaliber
-  name: "magazine (.50 caliber)"
+  name: "HRG-type magazine (.50 caliber)" # mono - larp weapon names
   parent: [ BaseItem, BaseSyndicateContraband ]
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: MagazineHighCaliberEmpty
-  name: "magazine (.50 empty)"
+  name: "HRG-type magazine (.50 empty)" # mono - larp weapon names
   parent: BaseMagazineHighCaliber
   components:
   - type: BallisticAmmoProvider
@@ -42,7 +42,7 @@
 
 - type: entity
   id: MagazineHighCaliber
-  name: "magazine (.50 anti-materiel)"
+  name: "HRG-type magazine (.50 anti-materiel)" # mono - larp weapon names
   parent: BaseMagazineHighCaliber
   components:
   - type: BallisticAmmoProvider
@@ -50,7 +50,7 @@
 
 - type: entity
   id: MagazineHighCaliberExplosive
-  name: "magazine (.50 high-explosive)"
+  name: "HRG-type magazine (.50 high-explosive)" # mono - larp weapon names
   parent: BaseMagazineHighCaliber
   components:
   - type: BallisticAmmoProvider

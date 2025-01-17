@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazinePistol
-  name: pistol magazine (.35 auto)
+  name: PTE-type magazine (9x19mm) # mono - larp weapon names
   parent: [ BaseItem, BaseRestrictedContraband ]
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: BaseMagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: PTL-type magazine (9x19mm) # mono - larp weapon names
   parent: BaseItem
   abstract: true
   components:
@@ -66,7 +66,7 @@
 
 - type: entity
   id: BaseMagazinePistolSubMachineGun  # Yeah it's weird but it's pistol caliber
-  name: SMG magazine (.35 auto)
+  name: IKM-type magazine (9x19mm) # mono - larp weapon names
   parent: [ BaseItem, BaseRestrictedContraband ]
   abstract: true
   components:
@@ -99,7 +99,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMounted
-  name: WT550 magazine (.35 auto top-mounted)
+  name: WT550 magazine (9x19mm top-mounted) # mono
   parent: [ BaseItem, BaseRestrictedContraband ]
   components:
   - type: Tag
@@ -130,7 +130,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMountedEmpty
-  name: WT550 magazine (.35 auto top-mounted any)
+  name: WT550 magazine (9x19mm top-mounted any) # mono
   parent: MagazinePistolSubMachineGunTopMounted
   components:
   - type: BallisticAmmoProvider
@@ -138,7 +138,7 @@
 
 - type: entity
   id: MagazinePistol
-  name: pistol magazine (.35 auto)
+  name: PTE-type magazine (9x19mm) # mono - larp weapon names
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -152,7 +152,7 @@
 
 - type: entity
   id: MagazinePistolEmpty
-  name: pistol magazine (.35 auto any)
+  name: PTE-type magazine (9x19mm) # mono - larp weapon names
   suffix: empty
   parent: MagazinePistol
   components:
@@ -166,7 +166,7 @@
 
 - type: entity
   id: MagazinePistolIncendiary
-  name: pistol magazine (.35 auto incendiary)
+  name: PTE-type magazine (9x19mm incendiary) # mono - larp weapon names
   parent: MagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -174,7 +174,7 @@
 
 - type: entity
   id: MagazinePistolPractice
-  name: pistol magazine (.35 auto practice)
+  name: PTE-type magazine (9x19mm practice) # mono - larp weapon names
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -188,7 +188,7 @@
 
 - type: entity
   id: MagazinePistolUranium
-  name: pistol magazine (.35 auto uranium)
+  name: PTE-type magazine (9x19mm DU) # mono - larp weapon names
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -202,7 +202,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityEmpty
-  name: machine pistol magazine (.35 auto any)
+  name: PTL-type magazine (9x19mm auto) # mono - larp weapon names
   suffix: empty
   parent: BaseMagazinePistolHighCapacity
   components:
@@ -215,7 +215,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: PTL-type magazine (9x19mm auto) # mono - larp weapon names
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -229,7 +229,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityPractice
-  name: machine pistol magazine (.35 auto practice)
+  name: PTL-type magazine (9x19mm practice) # mono - larp weapon names
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -243,7 +243,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityRubber
-  name: machine pistol magazine (.35 auto rubber)
+  name: PTL-type magazine (9x19mm rubber) # mono - larp weapon names
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -257,7 +257,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGun
-  name: SMG magazine (.35 auto)
+  name: IKM-type magazine (9x19mm auto) # mono - larp weapon names
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -277,7 +277,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunEmpty
-  name: SMG magazine (.35 auto any)
+  name: IKM-type magazine (9x19mm) # mono - larp weapon names
   suffix: empty
   parent: BaseMagazinePistolSubMachineGun
   components:
@@ -290,7 +290,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunPractice
-  name: SMG magazine (.35 auto practice)
+  name: IKM-type magazine (9x19mm practice) # mono - larp weapon names
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -304,7 +304,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunUranium
-  name: SMG magazine (.35 auto uranium)
+  name: IKM-type magazine (9x19mm DU) # mono - larp weapon names
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider

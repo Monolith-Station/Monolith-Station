@@ -22,10 +22,10 @@
   # No chamber because HMG may want its own
 
 - type: entity
-  name: minigun
+  name: XM-115 Microgun # mono - larp weapon names
   id: WeaponMinigun
   parent: [ BaseWeaponHeavyMachineGun, BaseMajorContraband ]
-  description: Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses .10 rifle ammo.
+  description: Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses 5.56x45mm ammo. # mono
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/HMGs/minigun.rsi

@@ -72,7 +72,7 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseCentcommContraband ]
   id: ClothingBlueshieldArmourVest
-  name: blueshield's security armour
+  name: blueshield's MBAC protective gear # mono
   description: An armoured vest with the badge of the blueshield
   components:
   - type: Sprite

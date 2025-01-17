@@ -5,7 +5,7 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseRestrictedContraband]
   id: ClothingOuterArmorBasic
-  name: armor vest
+  name: MBAC protective gear # mono
   description: A standard Type I armored vest that provides decent protection against most types of damage.
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBasicSlim
-  name: armor vest
+  name: MBAC-L protective gear # mono
   suffix: slim
   description: A slim Type I armored vest that provides decent protection against most types of damage.
   components:
@@ -38,8 +38,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseRestrictedContraband]
   id: ClothingOuterArmorRiot
-  name: riot suit
-  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+  name: MBAC-H full body protective gear # mono
+  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. # mono
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBulletproof
-  name: bulletproof vest
-  description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+  name: MBAC-X full body protective system # mono
+  description: A full body armor system that provides excellent ballistic protection, but poor blunt and thermal protection. # mono
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorReflective
-  name: reflective vest
+  name: MBAC-R directed energy weapon protection system # mono
   description: An armored vest with advanced shielding to protect against energy weapons.
   components:
   - type: Sprite

@@ -25,7 +25,7 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseRestrictedContraband]
   id: ClothingHeadHelmetBasic
-  name: helmet
+  name: SPPH helmet # mono
   description: Standard security gear. Protects the head from impacts.
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: [ ClothingHeadHelmetBase, BaseMajorContraband ]
   id: ClothingHeadHelmetMerc
-  name: mercenary helmet
+  name: PASGT system helmet # mono
   description: The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the jungle.
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseRestrictedContraband]
   id: ClothingHeadHelmetSwat
-  name: SWAT helmet
+  name: SPPH-B helmet # mono
   description: An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   parent: [BaseSyndicateContraband, ClothingHeadHelmetSwat] # Goob edit
   id: ClothingHeadHelmetSwatSyndicate
-  name: SWAT helmet
+  name: SPPH-B helmet # mono
   suffix: Syndicate
   description: An extremely robust helmet, commonly used by paramilitary forces. It is adorned in a nefarious red and black stripe pattern.
   components:
@@ -89,7 +89,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseRestrictedContraband]
   id: ClothingHeadHelmetRiot
-  name: light riot helmet
+  name: MBAC-H protective helmet # mono
   description: It's a helmet specifically designed to protect against close range attacks.
   components:
   - type: Sprite

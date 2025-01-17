@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBlueshield
-  name: blueshield helmet
-  description: The helmet of the captain's bodyguard's hardsuit.
+  name: GMZ-3 tacsuit helmet # mono - larp names
+  description: The helmet of the BSO's tacsuit. # mono
   components:
   - type: BreathMask
   - type: Sprite
@@ -75,7 +75,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit helmet
+  name: StMRA-20X stealthsuit helmet # mono - larp names
   description: A helmet with plating for stealth operations.
   components:
   - type: Sprite

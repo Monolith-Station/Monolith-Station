@@ -1,12 +1,15 @@
 # Weapons
-uplink-pistol-viper-name = Viper
-uplink-pistol-viper-desc = A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses pistol magazines (.35 auto).
+
+# mono changes - larp weapon names
+uplink-pistol-viper-name = P36
+uplink-pistol-viper-desc = A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses PTE-type magazines (.35 auto).
 
 uplink-revolver-python-name = Python
 uplink-revolver-python-desc = A brutally simple, effective, and loud Syndicate revolver. Comes loaded with armor-piercing rounds. Uses .45 magnum.
 
-uplink-pistol-cobra-name = Cobra
-uplink-pistol-cobra-desc = A rugged, robust operator handgun with inbuilt silencer. Uses pistol magazines (.25 caseless).
+# mono changes - larp weapon names
+uplink-pistol-cobra-name = G40
+uplink-pistol-cobra-desc = A rugged, robust operator handgun with inbuilt silencer. Uses LP-type magazines (.25 caseless).
 
 uplink-rifle-mosin-name = Surplus Rifle
 uplink-rifle-mosin-desc = A bolt action service rifle that has seen many wars. Not modern by any standard, hand loaded, and terrible recoil, but it is cheap.
@@ -79,23 +82,28 @@ uplink-shrapnel-grenade-name = Shrapnel Grenade
 uplink-shrapnel-grenade-desc = Launches a spray of sharp fragments dealing great damage against unarmored targets.
 
 # Ammo
-uplink-pistol-magazine-name = Pistol Magazine (.35 auto)
+# mono changes - larp weapon names
+uplink-pistol-magazine-name = PTE-type magazine (9x19mm)
 uplink-pistol-magazine-desc = Pistol magazine with 12 catridges. Compatible with the Viper.
 
-uplink-pistol-magazine-c20r-name = SMG magazine (.35 auto)
+# mono changes - larp weapon names
+uplink-pistol-magazine-c20r-name = IKM-type magazine (9x19mm)
 uplink-pistol-magazine-c20r-desc = Rifle magazine with 30 catridges. Compatible with C-20r.
 
-uplink-pistol-magazine-caseless-name = Pistol Magazine (.25 caseless)
+# mono changes - larp weapon names
+uplink-pistol-magazine-caseless-name = LP-type magazine (.25 caseless)
 uplink-pistol-magazine-caseless-desc = Pistol magazine with 10 catridges. Compatible with the Cobra.
 
 uplink-speedloader-magnum-name = Speedloader (.45 magnum AP)
 uplink-speedloader-magnu-desc = Revolver speedloader with 6 armor-piercing catridges, capable of ignoring armor entirely. Compatible with the Python.
 
-uplink-mosin-ammo-name = Ammunition box (.30 rifle)
+# mono changes - larp weapon names
+uplink-mosin-ammo-name = Ammunition box (7.62x39mm)
 uplink-mosin-ammo-desc = A box of 60 cartridges for the surplus rifle.
 
+# mono changes - larp weapon names
 uplink-sniper-ammo-name = Ammunition box (.60 antimateriel)
-uplink-sniper-ammo-desc = A box of 10 cartridges for the Hristov sniper rifle.
+uplink-sniper-ammo-desc = A box of 10 cartridges for the L-187 anti-material rifle.
 
 # Utility
 uplink-holopara-kit-name = Holoparasite Kit
@@ -222,23 +230,28 @@ uplink-knives-kit-desc = A set of 4 syndicate branded throwing knives, perfect f
 uplink-meds-bundle-name = Interdyne Medical Bundle
 uplink-meds-bundle-desc = An assortment of autoinjectors and premium medical equipment to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
 
+# mono changes - larp weapon names
 uplink-ammo-bundle-name = Ammo Bundle
-uplink-ammo-bundle-desc = Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, and 2 ammo boxes for the L6 SAW.
+uplink-ammo-bundle-desc = Reloading! Contains 4 magazines for the C-20r, 4 drums for the KSG-87, and 2 ammo boxes for the L6B-SAW.
 
-uplink-sniper-bundle-name = Sniper Bundle
-uplink-sniper-bundle-desc = An inconspicuous briefcase that contains a Hristov, 10 spare bullets and a convenient disguise.
+# mono changes - larp weapon names
+uplink-sniper-bundle-name = L-187 Bundle
+uplink-sniper-bundle-desc = An inconspicuous briefcase that contains a L-187, 10 spare bullets and a convenient disguise.
 
 uplink-c20r-bundle-name = C-20r Bundle
 uplink-c20r-bundle-desc = Old faithful: The classic C-20r Submachine Gun, bundled with three magazines.
 
-uplink-buldog-bundle-name = Bulldog Bundle
-uplink-buldog-bundle-desc = Lean and mean: Contains the popular Bulldog Shotgun, a 12g beanbag drum and three 12g buckshot drums.
+# mono changes - larp weapon names
+uplink-buldog-bundle-name = KSG-87 Bundle
+uplink-buldog-bundle-desc = Lean and mean: Contains the popular KSG-87 Shotgun, a 12g beanbag drum and three 12g buckshot drums.
 
-uplink-grenade-launcher-bundle-name = China-Lake Bundle
+# mono changes - larp weapon names
+uplink-grenade-launcher-bundle-name = GLM-30 Bundle
 uplink-grenade-launcher-bundle-desc = An old China-Lake grenade launcher bundled with 11 rounds of varying destructive capability.
 
-uplink-l6-saw-bundle-name = L6 Saw Bundle
-uplink-l6-saw-bundle-desc = More dakka: The iconic L6 light machine gun, bundled with 2 box magazines.
+# mono changes - larp weapon names
+uplink-l6-saw-bundle-name = L6B-SAW Bundle
+uplink-l6-saw-bundle-desc = More dakka: The iconic L6B light machine gun, bundled with 2 box magazines.
 
 uplink-zombie-bundle-name = Syndicate Zombie Bundle
 uplink-zombie-bundle-desc = An all-in-one kit for unleashing the undead upon a station.
@@ -323,14 +336,16 @@ uplink-eva-syndie-desc = A durathread EVA suit with some protection, and anti-ra
 uplink-hardsuit-carp-name = Carp Hardsuit
 uplink-hardsuit-carp-desc = Looks like an ordinary carp suit, except fully spaceproof and tricks space carp into thinking you are one of them.
 
-uplink-hardsuit-syndie-name = Syndicate Hardsuit
-uplink-hardsuit-syndie-desc = The Syndicate's well known armored blood red hardsuit, capable of space walks and bullet resistant.
+# mono changes - larp weapon names
+uplink-hardsuit-syndie-name = StMRA-6 Tacsuit
+uplink-hardsuit-syndie-desc = The Syndicate's well known armored blood red tacsuit, capable of space walks and bullet resistant.
 
 uplink-syndie-raid-name = Syndicate Raid Suit
 uplink-syndie-raid-desc = A very durable and reasonably flexible suit of blood-red armor, reinforced against all common forms of damage but not capable of space walks. Comes with a sick helmet.
 
-uplink-hardsuit-syndieelite-name = Syndicate Elite Hardsuit
-uplink-hardsuit-syndieelite-desc = An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+# mono changes - larp weapon names
+uplink-hardsuit-syndieelite-name = StMRA-15 Elite Tacsuit
+uplink-hardsuit-syndieelite-desc = An elite version of the StMRA-6 tacsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
 
 uplink-clothing-outer-hardsuit-juggernaut-name = Cybersun Juggernaut Suit
 uplink-clothing-outer-hardsuit-juggernaut-desc = Hyper resilient armor made of materials tested in the Tau chromosphere facility. The only thing that's going to be slowing you down is this suit... and tasers.

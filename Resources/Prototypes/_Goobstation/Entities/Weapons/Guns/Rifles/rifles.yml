@@ -2,7 +2,7 @@
   name: M-90
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90
-  description: A revision of the M-90gl that removes the inbuilt grenade launcher. Uses .20 rifle ammo.
+  description: A revision of the M-90gl that removes the inbuilt grenade launcher. Uses 6.5x39mm STANAG magazines as ammo. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/m90.rsi
@@ -45,10 +45,10 @@
     fireRate: 6
 
 - type: entity
-  name: Annie
+  name: LSTR-3 Annie # mono - larp weapon names
   parent: WeaponRifleAk
   id: WeaponRifleAnnie
-  description: A beast designed to shoulder the weight of impossible missions. Uses .30 rifle ammo.
+  description: A beast designed to shoulder the weight of impossible missions. Uses 7.62x39mm ammo. # mono
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/annie.rsi
@@ -70,10 +70,10 @@
       path: /Audio/_Goobstation/Weapons/Guns/Gunshots/thock.ogg
 
 - type: entity
-  name: WSPR
+  name: KMP-WSPR # mono - larp weapon names
   parent: WeaponRifleAk
   id: WeaponRifleWSPR
-  description: A cutting-edge rifle from Cybersun, versatile, reliable, and Syndicate-approved. Uses .30 rifle subsonic ammo.
+  description: A cutting-edge rifle from Cybersun, versatile, reliable, and Syndicate-approved. Uses 7.62x39mm subsonic ammo from LSTP-type magazines. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/wspr.rsi

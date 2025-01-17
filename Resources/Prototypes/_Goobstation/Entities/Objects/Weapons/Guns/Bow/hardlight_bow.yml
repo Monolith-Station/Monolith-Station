@@ -1,8 +1,8 @@
 - type: entity
-  name: hardlight bow
+  name: GE-9 MPEDW # mono - larp weapon names
   parent: [BaseItem, BaseSyndicateContraband]
   id: BowHardlight
-  description: A modern bow that can fabricate hardlight arrows using an internal energy. This one is designed by the Syndicate for silent takedowns of targets.
+  description: A modern directed energy weapon that can fabricate hardlight lances using an internal energy. This one is designed by the Syndicate for silent takedowns of targets. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Bow/hardlight_bow.rsi

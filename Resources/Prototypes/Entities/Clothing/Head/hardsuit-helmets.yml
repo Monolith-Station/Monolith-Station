@@ -27,7 +27,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitAtmos
-  name: atmos hardsuit helmet
+  name: LSTAR-B hardsuit helmet # mono
   description: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineering
-  name: engineering hardsuit helmet
+  name: LSTAR-C hardsuit helmet # mono
   description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSpatio
-  name: spationaut hardsuit helmet
+  name: PGS-B hardsuit helmet # mono
   description: A sturdy helmet designed for complex industrial operations in space.
   components:
   - type: Sprite
@@ -122,7 +122,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSalvage
-  name: salvage hardsuit helmet
+  name: PGS-A hardsuit helmet # mono
   description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
   components:
   - type: Sprite
@@ -162,7 +162,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurity
-  name: security hardsuit helmet
+  name: MBAC-200 hardsuit helmet # mono
   description: Armored hardsuit helmet for security needs.
   components:
   - type: Sprite
@@ -188,7 +188,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBrigmedic
-  name: brigmedic hardsuit helmet
+  name: MBAC-210 hardsuit helmet # mono
   description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
   components:
   - type: Sprite
@@ -216,7 +216,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWarden
-  name: warden's hardsuit helmet
+  name: MBAC-220 hardsuit helmet # mono
   description: A modified riot helmet. Oddly comfortable.
   components:
   - type: Sprite
@@ -259,7 +259,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineeringWhite
-  name: chief engineer's hardsuit helmet
+  name: LSTAR-A hardsuit helmet # mono
   description: Special hardsuit helmet, made for the chief engineer of the station.
   components:
   - type: Sprite
@@ -278,7 +278,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMedical
-  name: chief medical officer's hardsuit helmet
+  name: MTECH-220 hardsuit helmet # mono
   description: Lightweight medical hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: Sprite
@@ -312,7 +312,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurityRed
-  name: head of security's hardsuit helmet
+  name: TV-340 tacsuit helmet # mono
   description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
   components:
   - type: Sprite
@@ -357,7 +357,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndie
-  name: blood-red hardsuit helmet
+  name: StMRA-6 combat hardsuit helmet # mono - larp weapon names
   description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
@@ -383,7 +383,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieMedic
-  name: blood-red medic hardsuit helmet
+  name: StMRA-6 combat medic hardsuit helmet # mono - larp weapon names
   description: An advanced red hardsuit helmet specifically designed for field medic operations.
   components:
   - type: Sprite
@@ -409,7 +409,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieElite
-  name: syndicate elite helmet
+  name: StMRA-15 elite helmet # mono - larp weapon names
   description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
@@ -440,7 +440,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  name: syndicate commander helmet
+  name: StMRA-87 shock helmet # mono - larp weapon names
   description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
@@ -566,7 +566,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieCommander ]
   id: ClothingHeadHelmetHardsuitERTLeader
-  name: ERT leader hardsuit helmet
+  name: CCPS-300 tacsuit helmet # mono
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
@@ -587,7 +587,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTChaplain
-  name: ERT chaplain hardsuit helmet
+  name: CCPS-350 tacsuit helmet # mono
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
@@ -601,7 +601,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTEngineer
-  name: ERT engineer hardsuit helmet
+  name: CCPS-330 hardsuit helmet # mono
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
@@ -622,7 +622,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieElite ]
   id: ClothingHeadHelmetHardsuitERTMedical
-  name: ERT medic hardsuit helmet
+  name: CCPS-320 tacsuit helmet # mono
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
@@ -636,7 +636,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTSecurity
-  name: ERT security hardsuit helmet
+  name: CCPS-310 tacsuit helmet # mono
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
@@ -657,7 +657,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTJanitor
-  name: ERT janitor hardsuit helmet
+  name:  CCPS-340 tacsuit helmet # mono
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
@@ -671,7 +671,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitWithLightBase ]
   id: ClothingHeadHelmetCBURN
-  name: CBURN exosuit helmet
+  name: MPEP system exosuit helmet # mono
   description: A pressure resistant and fireproof hood worn by special cleanup units.
   components:
   - type: Sprite
@@ -712,7 +712,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitDeathsquad
-  name: deathsquad hardsuit helmet
+  name: MBTV-750 tacsuit helmet # mono
   description: A robust helmet for special operations.
   components:
   - type: BreathMask

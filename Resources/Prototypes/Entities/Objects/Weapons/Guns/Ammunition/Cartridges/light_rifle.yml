@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeLightRifle
-  name: cartridge (.30 rifle)
+  name: cartridge (7.62x39mm) # mono
   parent: [ BaseCartridge, BaseRestrictedContraband ]
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgeLightRifle
-  name: cartridge (.30 rifle)
+  name: cartridge (7.62x39mm) # mono
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgeLightRiflePractice
-  name: cartridge (.30 rifle practice)
+  name: cartridge (7.62x39mm practice) # mono
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -43,7 +43,7 @@
 
 - type: entity
   id: CartridgeLightRifleIncendiary
-  name: cartridge (.30 rifle incendiary)
+  name: cartridge (7.62x39mm incendiary) # mono
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: CartridgeLightRifleUranium
-  name: cartridge (.30 rifle uranium)
+  name: cartridge (7.62x39mm DU) # mono
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo

@@ -71,10 +71,10 @@
     spreadMultiplier: 1.25
 
 - type: entity
-  name: viper
+  name: P36 # mono - larp weapon names
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses .35 auto ammo.
+  description: A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses 9x19mm PTE mags. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -104,10 +104,10 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: echis
+  name: P36C
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: WeaponPistolEchis
-  description: A viper for use by cyborgs. Creates .35 ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: A P36 for use by cyborgs. Creates 9x19mm ammo on the fly from an internal ammo fabricator, which slowly self-charges. # mono - larp weapon names
   components:
   - type: Gun
     fireRate: 5
@@ -139,10 +139,10 @@
   - type: AmmoCounter
 
 - type: entity
-  name: cobra
+  name: G40
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
   id: WeaponPistolCobra
-  description: A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo.
+  description: A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo from LP-type magazines. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
@@ -188,10 +188,10 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: mk 58
+  name: MK58 # mono - larp weapon names
   parent: [BaseWeaponPistol, BaseRestrictedContraband]
   id: WeaponPistolMk58
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses 9x19mm auto ammo from PTE-type magazines. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi

@@ -57,7 +57,7 @@
   name: AKMS
   parent: [BaseWeaponRifle, BaseRestrictedContraband]
   id: WeaponRifleAk
-  description: An iconic weapon of war. Uses .30 rifle ammo.
+  description: An iconic weapon of war. Uses 7.62x39mm LK55-type magazines. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
@@ -106,7 +106,7 @@
   name: M-90gl
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
-  description: An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses .20 rifle ammo.
+  description: An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses 6.5x39mm STANAG magazines as ammo. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -149,10 +149,10 @@
     fireRate: 6
 
 - type: entity
-  name: Lecter
+  name: MR8 Lecter # mono - larp weapon names
   parent: [BaseWeaponRifle, BaseRestrictedContraband]
   id: WeaponRifleLecter
-  description: A high end military grade assault rifle. Uses .20 rifle ammo.
+  description: A high end military grade assault rifle. Uses 6.5x39mm STANAG magazines as ammo. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi

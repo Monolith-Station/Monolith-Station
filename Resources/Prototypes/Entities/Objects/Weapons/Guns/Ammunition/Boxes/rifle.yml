@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBig
-  name: ammunition box (.20 rifle)
+  name: ammunition box (6.5x39mm) # mono
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -47,7 +47,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifle
-  name: ammunition box (.20 rifle)
+  name: ammunition box (6.5x39mm) # mono
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifle
@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRiflePractice
-  name: ammunition box (.20 rifle practice)
+  name: ammunition box (6.5x39mm practice) # mono
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRiflePractice
@@ -76,7 +76,7 @@
 - type: entity
   id: MagazineBoxRifleIncendiary
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle incendiary)
+  name: ammunition box (6.5x39mm incendiary) # mono
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleIncendiary
@@ -91,7 +91,7 @@
 - type: entity
   id: MagazineBoxRifleUranium
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle uranium)
+  name: ammunition box (6.5x39mm DU) # mono
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleUranium

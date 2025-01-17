@@ -1,6 +1,6 @@
 - type: entity
   id: SpeedLoaderLightRifle
-  name: "speed loader (.30 rifle)"
+  name: "speed loader (7.62x39mm)" # mono
   parent: [ BaseItem, BaseRestrictedContraband ]
   components:
   - type: Tag

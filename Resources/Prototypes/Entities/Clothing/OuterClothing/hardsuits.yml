@@ -33,7 +33,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseEngineeringContraband]
   id: ClothingOuterHardsuitAtmos
-  name: atmos hardsuit
+  name: LSTAR-B hardsuit # mono
   description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseEngineeringContraband]
   id: ClothingOuterHardsuitEngineering
-  name: engineering hardsuit
+  name: LSTAR-C hardsuit # mono
   description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitSpatio
-  name: spationaut hardsuit
+  name: PGS-B hardsuit # mono
   description: A lightweight hardsuit designed for industrial EVA in zero gravity.
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitSalvage
-  name: mining hardsuit
+  name: PGS-A hardsuit # mono
   description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
   components:
   - type: Sprite
@@ -198,7 +198,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseRestrictedContraband]
   id: ClothingOuterHardsuitSecurity
-  name: security hardsuit
+  name: MBAC-200 hardsuit # mono
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
@@ -230,7 +230,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseRestrictedContraband]
   id: ClothingOuterHardsuitBrigmedic
-  name: brigmedic hardsuit
+  name: MBAC-210 hardsuit # mono
   description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
   components:
   - type: Sprite
@@ -259,7 +259,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseRestrictedContraband]
   id: ClothingOuterHardsuitWarden
-  name: warden's hardsuit
+  name: MBAC-220 hardsuit # mono
   description: A specialized riot suit geared to combat low pressure environments.
   components:
   - type: Sprite
@@ -324,7 +324,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitEngineeringWhite
-  name: chief engineer's hardsuit
+  name: LSTAR-A hardsuit # mono
   description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
   components:
   - type: Sprite
@@ -362,7 +362,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitMedical
-  name: chief medical officer's hardsuit
+  name: MTECH-220 hardsuit # mono
   description: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
   components:
   - type: Sprite
@@ -433,8 +433,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitSecurityRed
-  name: head of security's hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: TV-340 tacsuit # mono
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of ceramic alloys. # mono
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
@@ -499,7 +499,7 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitSyndie
-  name: blood-red hardsuit
+  name: StMRA-6 combat tacsuit # mono - larp weapon names
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
@@ -539,7 +539,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitSyndie, BaseSyndicateContraband]
   id: ClothingOuterHardsuitSyndieMedic
-  name: blood-red medic hardsuit
+  name: StMRA-6 combat medic tacsuit # mono - larp weapon names
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
@@ -558,7 +558,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitSyndieElite
-  name: syndicate elite hardsuit
+  name: StMRA-15 elite tacsuit # mono - larp weapon names
   description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
@@ -598,7 +598,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitSyndieCommander
-  name: syndicate commander hardsuit
+  name: StMRA-87 shock tacsuit # mono - larp weapon names
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
@@ -796,7 +796,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieCommander ]
   id: ClothingOuterHardsuitERTLeader
-  name: ERT leader's hardsuit
+  name: CCPS-300 tacsuit # mono
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: Sprite
@@ -811,7 +811,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitJuggernaut ]
   id: ClothingOuterHardsuitERTChaplain
-  name: ERT chaplain's hardsuit
+  name: CCPS-350 tacsuit # mono
   description: A protective hardsuit worn by the chaplains of an Emergency Response Team.
   components:
   - type: Sprite
@@ -826,7 +826,7 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTEngineer
-  name: ERT engineer's hardsuit
+  name: CCPS-330 hardsuit # mono
   description: A protective hardsuit worn by the engineers of an emergency response team.
   components:
   - type: Sprite
@@ -841,7 +841,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieMedic ]
   id: ClothingOuterHardsuitERTMedical
-  name: ERT medic's hardsuit
+  name: CCPS-320 tacsuit # mono
   description: A protective hardsuit worn by the medics of an emergency response team.
   components:
   - type: Sprite
@@ -856,7 +856,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndie ]
   id: ClothingOuterHardsuitERTSecurity
-  name: ERT security's hardsuit
+  name: CCPS-310 tacsuit # mono
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
@@ -875,7 +875,7 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTJanitor
-  name: ERT janitor's hardsuit
+  name: CCPS-340 tacsuit # mono
   description: A protective hardsuit worn by the janitors of an emergency response team.
   components:
   - type: Sprite
@@ -890,7 +890,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitDeathsquad
-  name: death squad hardsuit
+  name: MBTV-750 tacsuit # mono
   description: An advanced hardsuit favored by commandos for use in special operations.
   components:
   - type: Sprite
@@ -928,7 +928,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitCBURN
-  name: CBURN exosuit
+  name: MPEP system exosuit # mono
   description: A lightweight yet strong exosuit used for special cleanup operations.
   components:
   - type: Sprite

@@ -50,8 +50,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitBlueshield
-  name: blueshield hardsuit
-  description: A hardsuit for the captains personal bodyguard.
+  name: GMZ-3 tacsuit # mono - larp names
+  description: A tacsuit for the BSO, fitted with all kinds of protective kevlar and ceramics. # mono
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/bso.rsi
@@ -86,7 +86,7 @@
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit
+  name: StMRA-20X stealthsuit # mono - larp names
   description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
   components:
   - type: Sprite

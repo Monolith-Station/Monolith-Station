@@ -90,7 +90,7 @@
 
 - type: entity
   id: MagazineMagnumUranium
-  name: pistol magazine (.45 magnum uranium)
+  name: pistol magazine (.45 magnum DU) # mono
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -159,7 +159,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunUranium
-  name: "Vector magazine (.45 magnum uranium)"
+  name: "Vector magazine (.45 magnum DU)" # mono
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
