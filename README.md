@@ -14,7 +14,7 @@ We do not have documentation, so use the [Goob Station Documentation](https://do
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in [Monolith Station Discord](https://discord.gg/mxY4h2JuUw) if you want to help. Feel free to check the [list of issues](https://github.com/Monolith-Station/Monolith-Station/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
+We are happy to accept contributions from anybody. Get in the [Monolith Station Discord](https://discord.gg/mxY4h2JuUw) if you want to help. Feel free to check the [list of issues](https://github.com/Monolith-Station/Monolith-Station/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
 While following the [Space Station 14 Contribution Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) is not mandatory for Monolith Station, we recommend reviewing them for best practices.
 
 We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
