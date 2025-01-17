@@ -1,5 +1,4 @@
-# Weapons
- # mono - larp weapon names
+# Weapons # mono - larp weapon names
 uplink-pistol-viper-name = P36
 uplink-pistol-viper-desc = A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses PTE-type magazines (.35 auto).
 
