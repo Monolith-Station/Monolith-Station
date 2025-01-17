@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://github.com/Goob-Station/Goob-Station/blob/master/Resources/Textures/Logo/logo.png"/></p>
+<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://github.com/Monolith-Station/Monolith-Station/blob/main/Resources/Textures/Logo/logo.png" /></p>
 
 This is a fork of Goob Station, which itself is a fork of Space Station 14, named Monolith Station. To prevent people from forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on our specific server, and this is the content pack for Monolith Station.
 
