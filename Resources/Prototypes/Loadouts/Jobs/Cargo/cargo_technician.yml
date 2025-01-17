@@ -16,7 +16,7 @@
     jumpsuit: ClothingUniformJumpskirtCargo
 
 - type: loadout # mono
-  id: CargoTechnicianMJ
+  id: CargoTechMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryCargo
 
