@@ -75,6 +75,11 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorResearcher
 
+- type: loadout # mono
+  id: ResearchMJ
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist
+
 # Back
 - type: loadout
   id: ScientistBackpack

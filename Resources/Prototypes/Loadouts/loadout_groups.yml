@@ -107,6 +107,7 @@
   - CaptainJumpskirt
   - CaptainFormalSuit
   - CaptainFormalSkirt
+  - CaptainJumpsuitMilitary # mono
 
 - type: loadoutGroup
   id: CaptainNeck
@@ -145,6 +146,7 @@
   loadouts:
   - HoPJumpsuit
   - HoPJumpskirt
+  - HoPJumpsuitMilitary # mono
 
 - type: loadoutGroup
   id: HoPNeck
@@ -179,6 +181,21 @@
   - GreyJumpskirt
   - AncientJumpsuit
   - RainbowJumpsuit
+  - GreyMJ # mono changes start
+  - BlackMJ
+  - BlueMJ
+  - DarkBlueMJ
+  - TealMJ
+  - GreenMJ
+  - DarkGreenMJ
+  - OrangeMJ
+  - PinkMJ
+  - RedMJ
+  - YellowMJ
+  - PurpleMJ
+  - LightBrownMJ
+  - BrownMJ
+  - MaroonMJ # mono changes end
 
 - type: loadoutGroup
   id: PassengerFace
@@ -238,6 +255,7 @@
   - BartenderJumpsuit
   - BartenderJumpskirt
   - BartenderJumpsuitPurple
+  - ServiceMJ # mono
 
 - type: loadoutGroup
   id: BartenderOuterClothing
@@ -268,6 +286,7 @@
   loadouts:
   - ChefJumpsuit
   - ChefJumpskirt
+  - ServiceMJ # mono
 
 - type: loadoutGroup
   id: ChefOuterClothing
@@ -286,6 +305,7 @@
   - LibrarianJumpskirt
   - CuratorJumpsuit
   - CuratorJumpskirt
+  - ServiceMJ # mono
 
 - type: loadoutGroup
   id: LawyerJumpsuit
@@ -301,6 +321,7 @@
   - LawyerJumpskirtRed
   - LawyerJumpsuitGood
   - LawyerJumpskirtGood
+  - ServiceMJ # mono
 
 - type: loadoutGroup
   id: LawyerNeck
@@ -335,6 +356,7 @@
   - ChaplainJumpskirt
   - ChaplainRobesLight
   - ChaplainRobesDark
+  - ServiceMJ # mono
 
 - type: loadoutGroup
   id: ChaplainOuterClothing
@@ -366,6 +388,7 @@
   loadouts:
   - JanitorJumpsuit
   - JanitorJumpskirt
+  - ServiceMJ # mono
 
 - type: loadoutGroup
   id: JanitorGloves
@@ -405,6 +428,8 @@
   - BotanistJumpsuit
   - BotanistJumpskirt
   - BotanistOveralls
+  - ServiceMJ # mono
+  - HydroMJ # mono
 
 - type: loadoutGroup
   id: BotanistBackpack
@@ -534,6 +559,7 @@
   loadouts:
   - MusicianJumpsuit
   - MusicianJumpskirt
+  - ServiceMJ # mono
 
 - type: loadoutGroup
   id: MusicianOuterClothing
@@ -595,6 +621,7 @@
   - QuartermasterTurtleneck
   - QuartermasterTurtleneckSkirt
   - QuartermasterFormalSuit
+  - QuartermasterMJ # mono
 
 - type: loadoutGroup
   id: QuartermasterNeck
@@ -634,6 +661,7 @@
   - CargoTechnicianJumpskirt
   - CargoTechnicianJumpsuitMail # Goob/DeltaV - Mail
   - CargoTechnicianJumpskirtMail # Goob/DeltaV - Mail
+  - CargoTechMJ # mono
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
@@ -697,6 +725,7 @@
   - ChiefEngineerJumpskirt
   - ChiefEngineerTurtleneck
   - ChiefEngineerTurtleneckSkirt
+  - ChiefEngineerMJ # mono
 
 - type: loadoutGroup
   id: ChiefEngineerNeck
@@ -726,6 +755,7 @@
   loadouts:
   - YellowJumpsuit
   - YellowJumpskirt
+  - EngiMJ # mono
 
 - type: loadoutGroup
   id: StationEngineerHead
@@ -745,6 +775,7 @@
   - StationEngineerHazardsuit
   - SeniorEngineerJumpsuit
   - SeniorEngineerJumpskirt
+  - EngiMJ # mono
 
 - type: loadoutGroup
   id: StationEngineerBackpack
@@ -792,6 +823,7 @@
   - AtmosphericTechnicianJumpsuitCasual
   - SeniorEngineerJumpskirt  # Goobstation
   - SeniorEngineerJumpsuit   # Goobstation
+  - AtmosMJ # mono
 
 - type: loadoutGroup
   id: AtmosphericTechnicianOuterClothing
@@ -847,6 +879,7 @@
   loadouts:
   - ResearchDirectorJumpsuit
   - ResearchDirectorJumpskirt
+  - ResearchDirectorMJ # mono
 
 - type: loadoutGroup
   id: ResearchDirectorOuterClothing
@@ -889,6 +922,7 @@
   - RoboticistJumpskirt
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
+  - ResearchMJ # mono
 
 - type: loadoutGroup
   id: ScientistBackpack
@@ -940,6 +974,7 @@
   loadouts:
   - WhiteJumpsuit
   - WhiteJumpskirt
+  - ResearchMJ # mono
 
 # Security
 - type: loadoutGroup
@@ -1133,6 +1168,7 @@
   - ChiefMedicalOfficerJumpskirt
   - ChiefMedicalOfficerTurtleneckJumpsuit
   - ChiefMedicalOfficerTurtleneckJumpskirt
+  - CMOMJ # mono
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -1181,6 +1217,7 @@
   - MedicalBlueScrubs
   - MedicalGreenScrubs
   - MedicalPurpleScrubs
+  - MedicMJ # mono
 
 - type: loadoutGroup
   id: MedicalDoctorOuterClothing
@@ -1234,6 +1271,7 @@
   loadouts:
   - WhiteJumpsuit
   - WhiteJumpskirt
+  - MedicMJ # mono
 
 - type: loadoutGroup
   id: ChemistJumpsuit
@@ -1241,6 +1279,7 @@
   loadouts:
   - ChemistJumpsuit
   - ChemistJumpskirt
+  - ChemistMJ # mono
 
 - type: loadoutGroup
   id: ChemistOuterClothing
@@ -1272,6 +1311,7 @@
   loadouts:
   - ParamedicJumpsuit
   - ParamedicJumpskirt
+  - ParamedMJ # mono
 
 - type: loadoutGroup
   id: ParamedicOuterClothing
