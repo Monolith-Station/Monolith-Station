@@ -617,7 +617,7 @@
 - type: entity
   parent: ClothingBeltSecurity
   id: ClothingBeltSecurityWebbing
-  name: security carrier
+  name: security LBV-330 # mono
   description: Unique and versatile chest rig, can hold security gear.
   components:
   - type: Sprite
@@ -628,7 +628,7 @@
 - type: entity
   parent: [ ClothingBeltStorageBase, BaseSecurityCargoContraband ]
   id: ClothingBeltMercWebbing
-  name: mercenary webbing
+  name: mercenary LBV-330 # mono
   description: Ideal for storing everything from ammo to weapons and combat essentials.
   components:
   - type: Sprite
@@ -650,7 +650,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
   id: ClothingBeltMilitaryWebbing
-  name: chest rig
+  name: LBV-330 # mono
   description: A set of tactical webbing worn by Syndicate boarding parties.
   components:
   - type: Sprite
@@ -663,7 +663,7 @@
 - type: entity
   parent: ClothingBeltMilitaryWebbing
   id: ClothingBeltMilitaryWebbingMed
-  name: medical chest rig
+  name: combat medic LBV-330 # mono
   description: A set of tactical webbing worn by Gorlex Marauder medic operatives.
   components:
   - type: Sprite

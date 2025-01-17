@@ -796,7 +796,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieCommander ]
   id: ClothingOuterHardsuitERTLeader
-  name: ERT leader's hardsuit
+  name: CCPS-300 tacsuit # mono
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: Sprite
@@ -811,7 +811,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitJuggernaut ]
   id: ClothingOuterHardsuitERTChaplain
-  name: ERT chaplain's hardsuit
+  name: CCPS-350 tacsuit # mono
   description: A protective hardsuit worn by the chaplains of an Emergency Response Team.
   components:
   - type: Sprite
@@ -826,7 +826,7 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTEngineer
-  name: ERT engineer's hardsuit
+  name: CCPS-330 hardsuit # mono
   description: A protective hardsuit worn by the engineers of an emergency response team.
   components:
   - type: Sprite
@@ -841,7 +841,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieMedic ]
   id: ClothingOuterHardsuitERTMedical
-  name: ERT medic's hardsuit
+  name: CCPS-320 tacsuit # mono
   description: A protective hardsuit worn by the medics of an emergency response team.
   components:
   - type: Sprite
@@ -856,7 +856,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndie ]
   id: ClothingOuterHardsuitERTSecurity
-  name: ERT security's hardsuit
+  name: CCPS-310 tacsuit # mono
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
@@ -875,7 +875,7 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTJanitor
-  name: ERT janitor's hardsuit
+  name: CCPS-340 tacsuit # mono
   description: A protective hardsuit worn by the janitors of an emergency response team.
   components:
   - type: Sprite
@@ -890,7 +890,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitDeathsquad
-  name: death squad hardsuit
+  name: MBTV-750 tacsuit # mono
   description: An advanced hardsuit favored by commandos for use in special operations.
   components:
   - type: Sprite
@@ -928,7 +928,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitCBURN
-  name: CBURN exosuit
+  name: MPEP system exosuit # mono
   description: A lightweight yet strong exosuit used for special cleanup operations.
   components:
   - type: Sprite

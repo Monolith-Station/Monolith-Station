@@ -1,6 +1,6 @@
 - type: entity
   id: CartridgeLightRifleSubsonic
-  name: cartridge (.30 rifle subsonic)
+  name: cartridge (7.62x39mm subsonic) # mono
   parent: BaseCartridgeLightRifle
   components:
   - type: Tag
