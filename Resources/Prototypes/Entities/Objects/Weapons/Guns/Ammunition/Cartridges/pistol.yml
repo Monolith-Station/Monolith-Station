@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgePistol
-  name: cartridge (.35 auto)
+  name: cartridge (9x19mm) # mono
   parent: [ BaseCartridge, BaseRestrictedContraband ]
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgePistol
-  name: cartridge (.35 auto)
+  name: cartridge (9x19mm) # mono
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgePistolPractice
-  name: cartridge (.35 auto practice)
+  name: cartridge (9x19mm practice) # mono
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -43,7 +43,7 @@
 
 - type: entity
   id: CartridgePistolIncendiary
-  name: cartridge (.35 auto incendiary)
+  name: cartridge (9x19mm incendiary) # mono
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: CartridgePistolUranium
-  name: cartridge (.35 auto uranium)
+  name: cartridge (9x19mm DU) # mono
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineHeavyRifle
-  name: "magazine (.20 rifle)"
+  name: "STANAG magazine (6.5x39mm)" # mono
   parent: [ BaseItem, BaseRestrictedContraband ]
   abstract: true
   components:

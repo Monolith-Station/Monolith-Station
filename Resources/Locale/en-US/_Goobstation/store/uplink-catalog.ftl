@@ -1,15 +1,18 @@
 # Surplus Hardsuits
 
-uplink-hardsuit-syndiemedic-name = Gorlex Agent Hardsuit
-uplink-hardsuit-syndiemedic-desc = A bundle with a surplus combat medic hardsuit, from the Gorlex Marauders.
+# mono - larp names
+uplink-hardsuit-syndiemedic-name = StMRA-6 Combat Medic Tacsuit
+uplink-hardsuit-syndiemedic-desc = A bundle with a surplus combat medic tacsuit, from the Gorlex Marauders.
 
-uplink-hardsuit-syndiecommander-name = Gorlex Commander Hardsuit
-uplink-hardsuit-syndiecommander-desc = A surplus commander hardsuit, from the Gorlex Marauders. Too bulky to put in a bundle, so no tanks included!
+# mono - larp names
+uplink-hardsuit-syndiecommander-name = StMRA-87 Shock Tacsuit
+uplink-hardsuit-syndiecommander-desc = A surplus commander tacsuit, from the Gorlex Marauders. Too bulky for a bundle, so it doesn't come with internals equipment or accessories.
 
 # Cybersun Stealth
 
-uplink-hardsuit-cybersun-stealth-name = Cybersun Stealth Hardsuit
-uplink-hardsuit-cybersun-stealth-desc = Reversed engineered from Spider Clan technology, this hardsuit has stealth plating in it for those special ops. Slightly slower and less armor than the default hardsuits.
+# mono - larp names
+uplink-hardsuit-cybersun-stealth-name = StMRA-20X Stealthsuit
+uplink-hardsuit-cybersun-stealth-desc = Reversed engineered from Spider Clan technology, this stealthsuit has stealth plating in it for those special kinds of ops. Slightly slower and less armor than the other tacsuits.
 
 # Misc
 
@@ -29,7 +32,7 @@ uplink-miniature-energy-crossbow-desc = The syndicate's energy crossbow, small, 
 
  # mono - larp weapon names
 uplink-hardlight-bow-name = GE-9 MPEBW
-uplink-hardlight-bow-desc = A modern bow that can fabricate hardlight arrows, designed for silent takedowns of targets. Has 7 different firing modes. Can be folded.
+uplink-hardlight-bow-desc = A modern energy burst weapon that can fabricate hardlight arrows, designed for silent takedowns of targets. Has 7 different firing modes. Can be folded.
 
 # Job-specific
 
@@ -73,7 +76,7 @@ uplink-l6-saw-desc = More dakka: The iconic L6B light machine gun.
 
  # mono - larp weapon names
 uplink-m90-name = M-90
-uplink-m90-desc = An M-90 combat rifle, feeding from STANAG .20 rifle magazines.
+uplink-m90-desc = An M-90 combat rifle, feeding from 6.5x39mm STANAG magazines.
 
 uplink-dualetta-bundle-name = Dualetta Bundle
 uplink-dualetta-bundle-desc = Comes with 2 Dualetta pistols, 2 machine pistol magazines, combat gloves, noir suit, detectives trenchcoat, and laceup shoes.
@@ -81,25 +84,28 @@ uplink-dualetta-bundle-desc = Comes with 2 Dualetta pistols, 2 machine pistol ma
 # Ammo
 
 uplink-blast-grenade-name = Blast Grenade
-uplink-blast-grenade-desc = Higher damage, smaller radius. Compatible with the China-Lake.
+uplink-blast-grenade-desc = Higher damage, smaller radius. Compatible with the GLM-30.
 
 uplink-frag-grenade-name = Frag Grenade
-uplink-frag-grenade-desc = Lower damage, bigger radius. Compatible with the China-Lake.
+uplink-frag-grenade-desc = Lower damage, bigger radius. Compatible with the GLM-30.
 
-uplink-rifle-mag-name = .20 Rifle Magazine
-uplink-rifle-mag-desc = A 25 round magazine containing .20 rifle bullets. Supports the Lecter and M-90.
+ # mono - larp weapon names
+uplink-rifle-mag-name = 6.5x39 STANAG Magazine
+uplink-rifle-mag-desc = A 30 round magazine containing 6.5x39mm bullets. Supports the Lecter and M-90.
 
-uplink-rifle-subsonic-mag-name = .30 Rifle Subsonic Magazine
-uplink-rifle-subsonic-mag-desc = A 35 round magazine containing .30 rifle subsonic bullets. Supports the WSPR and any other .30 rife.
+# mono - larp weapon names
+uplink-rifle-subsonic-mag-name = 7.62x39mm Subsonic Magazine
+uplink-rifle-subsonic-mag-desc = A 35 round magazine containing 7.62x39mm subsonic bullets. Supports the WSPR and any other 7.62x39mm rifle.
 
-uplink-l6-box-name = Magazine Box (.30 rifle)
+# mono - larp weapon names
+uplink-l6-box-name = Magazine Box (7.62x39mm rifle)
 uplink-l6-box-desc = Magazine box with 100 catridges. Compatible with the L6 SAW.
 
 uplink-shotgun-magazine-name = Shotgun Drum (.50 pellet)
-uplink-shotgun-magazine-desc = Shutgun drum with 8 pellet shells. Compatible with the Bulldog.
+uplink-shotgun-magazine-desc = Shutgun drum with 8 pellet shells. Compatible with the KSG-87.
 
 uplink-shotgun-magazine-slug-name = Shotgun Drum (.50 slug)
-uplink-shotgun-magazine-slug-desc = Shutgun drum with 8 slug shells. Compatible with the Bulldog.
+uplink-shotgun-magazine-slug-desc = Shutgun drum with 8 slug shells. Compatible with the KSG-87.
 
 uplink-high-caliber-magazine-name = Heavy Rifle Magazine (.50 anti-materiel)
 uplink-high-caliber-magazine-desc = Rifle magazine with 15 cartridges. Compatible with the Burner.
@@ -111,7 +117,7 @@ uplink-high-caliber-box-name = .50 Ammo box
 uplink-high-caliber-box-desc = A box of 30 .50 caliber anti-materiel rounds.
 
  # mono - larp weapon names
-uplink-highcap-pistol-mag-name = PTL-type magazine (.35 auto)
+uplink-highcap-pistol-mag-name = PTL-type magazine (9x19mm)
 uplink-highcap-pistol-mag-desc = High capacity pistol magazine holds 4 extra bullets for a total of 16 rounds.
 
 # Mechs

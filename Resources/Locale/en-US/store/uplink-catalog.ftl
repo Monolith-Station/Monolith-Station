@@ -82,11 +82,11 @@ uplink-shrapnel-grenade-desc = Launches a spray of sharp fragments dealing great
 
 # Ammo
  # mono - larp weapon names
-uplink-pistol-magazine-name = PTE-type magazine (.35 auto)
+uplink-pistol-magazine-name = PTE-type magazine (9x19mm)
 uplink-pistol-magazine-desc = Pistol magazine with 12 catridges. Compatible with the Viper.
 
  # mono - larp weapon names
-uplink-pistol-magazine-c20r-name = IKM-type magazine (.35 auto)
+uplink-pistol-magazine-c20r-name = IKM-type magazine (9x19mm)
 uplink-pistol-magazine-c20r-desc = Rifle magazine with 30 catridges. Compatible with C-20r.
 
  # mono - larp weapon names
@@ -96,11 +96,13 @@ uplink-pistol-magazine-caseless-desc = Pistol magazine with 10 catridges. Compat
 uplink-speedloader-magnum-name = Speedloader (.45 magnum AP)
 uplink-speedloader-magnu-desc = Revolver speedloader with 6 armor-piercing catridges, capable of ignoring armor entirely. Compatible with the Python.
 
-uplink-mosin-ammo-name = Ammunition box (.30 rifle)
+ # mono - larp weapon names
+uplink-mosin-ammo-name = Ammunition box (7.62x39mm)
 uplink-mosin-ammo-desc = A box of 60 cartridges for the surplus rifle.
 
+ # mono - larp weapon names
 uplink-sniper-ammo-name = Ammunition box (.60 antimateriel)
-uplink-sniper-ammo-desc = A box of 10 cartridges for the Hristov sniper rifle.
+uplink-sniper-ammo-desc = A box of 10 cartridges for the L-187 anti-material rifle.
 
 # Utility
 uplink-holopara-kit-name = Holoparasite Kit
@@ -227,8 +229,9 @@ uplink-knives-kit-desc = A set of 4 syndicate branded throwing knives, perfect f
 uplink-meds-bundle-name = Interdyne Medical Bundle
 uplink-meds-bundle-desc = An assortment of autoinjectors and premium medical equipment to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
 
+ # mono - larp weapon names
 uplink-ammo-bundle-name = Ammo Bundle
-uplink-ammo-bundle-desc = Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, and 2 ammo boxes for the L6 SAW.
+uplink-ammo-bundle-desc = Reloading! Contains 4 magazines for the C-20r, 4 drums for the KSG-87, and 2 ammo boxes for the L6B-SAW.
 
  # mono - larp weapon names
 uplink-sniper-bundle-name = L-187 Bundle
