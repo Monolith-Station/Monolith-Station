@@ -139,7 +139,7 @@
       Gold: 125
 
 - type: entity
-  name: retro laser blaster
+  name: LEM-59 # mono - larp weapon names
   parent: [ BaseWeaponBatterySmall, BaseMajorContraband ]
   id: WeaponLaserGun
   description: A weapon using light amplified by the stimulated emission of radiation.
@@ -187,7 +187,7 @@
   - type: Multishot # Goobstation
 
 - type: entity
-  name: tesla gun
+  name: LRT-30 # mono - larp weapon names
   parent: BaseWeaponBattery
   id: WeaponTeslaGun
   description: The power of the primordial element of lightning in your hands.
@@ -216,7 +216,7 @@
   - type: Appearance
 
 - type: entity
-  name: practice laser rifle
+  name: practice KM-40 # mono - larp weapon names
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponLaserCarbinePractice
   description: This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
@@ -244,7 +244,7 @@
 
 
 - type: entity
-  name: laser rifle
+  name: KM-40 # mono - larp weapon names
   parent: [WeaponLaserCarbinePractice, BaseGunWieldable, BaseRestrictedContraband]
   id: WeaponLaserCarbine
   description: Favoured by Nanotrasen Security for being cheap and easy to use.
@@ -256,7 +256,7 @@
     fireCost: 62.5
 
 - type: entity
-  name: pulse pistol
+  name: PDIR-30 # mono - larp weapon names
   parent: BaseWeaponBatterySmall
   id: WeaponPulsePistol
   description: A state of the art energy pistol favoured as a sidearm by the NT operatives.
@@ -286,7 +286,7 @@
   - type: Multishot # Goobstation
 
 - type: entity
-  name: pulse carbine
+  name: PDIR-40 # mono - larp weapon names
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseCarbine
   description: A high tech energy carbine favoured by the NT-ERT operatives.
@@ -317,7 +317,7 @@
     startingCharge: 5000
 
 - type: entity
-  name: pulse rifle
+  name: PDIR-50 # mono - larp weapon names
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponPulseRifle
   description: A weapon that is almost as infamous as its users.
@@ -344,7 +344,7 @@
     startingCharge: 40000
 
 - type: entity
-  name: laser cannon
+  name: KM-80A # mono - larp weapon names
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseRestrictedContraband]
   id: WeaponLaserCannon
   description: A heavy duty, high powered laser weapon.
@@ -404,7 +404,7 @@
         Uranium: 37
 
 - type: entity
-  name: x-ray cannon
+  name: KM-80B
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponXrayCannon
   description: An experimental weapon that uses concentrated x-ray energy against its target.
@@ -579,7 +579,7 @@
 
 
 - type: entity
-  name: antique laser pistol
+  name: LEM-95 # mono - larp weapon names
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponAntiqueLaser
   description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy.
@@ -624,7 +624,7 @@
   - type: Multishot # Goobstation
 
 - type: entity
-  name: advanced laser pistol
+  name: KM-45 # mono - larp weapon names
   parent: [ BaseWeaponBatterySmall, BaseRestrictedContraband]
   id: WeaponAdvancedLaser
   description: An experimental high-energy laser pistol with a self-charging nuclear battery.
@@ -761,7 +761,7 @@
     price: 750
 
 - type: entity
-  name: energy shotgun
+  name: EXDPW # mono - larp weapon names
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseGrandTheftContraband]
   id: WeaponEnergyShotgun
   description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.

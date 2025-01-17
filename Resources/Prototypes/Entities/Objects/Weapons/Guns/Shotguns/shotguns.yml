@@ -44,7 +44,7 @@
     price: 500
 
 - type: entity
-  name: Bulldog
+  name: KSG-87 # mono - larp weapon names
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog

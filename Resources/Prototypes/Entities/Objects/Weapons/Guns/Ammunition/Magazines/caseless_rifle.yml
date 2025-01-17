@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: "MP-type magazine (.25 caseless)" # mono - larp weapon names
   parent: [ BaseItem, BaseRestrictedContraband ]
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BaseMagazineCaselessRifleShort
-  name: "caseless rifle short magazine (.25 caseless)"
+  name: "low capacity MP-type magazine (.25 caseless)" # mono - larp weapon names
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: BaseMagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: "LP-type magazine (.25 caseless)" # mono - larp weapon names
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -94,7 +94,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: "LP-type magazine (.25 caseless)" # mono - larp weapon names
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -114,7 +114,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRiflePractice
-  name: "pistol magazine (.25 caseless practice)"
+  name: "LP-type magazine (.25 caseless practice)" # mono - larp weapon names
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -134,7 +134,7 @@
 
 - type: entity
   id: MagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: "MP-type magazine (.25 caseless)" # mono - larp weapon names
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -148,7 +148,7 @@
 
 - type: entity
   id: MagazineCaselessRiflePractice
-  name: "magazine (.25 caseless practice)"
+  name: "MP-type magazine (.25 caseless practice)" # mono - larp weapon names
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -162,7 +162,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShort
-  name: "short magazine (.25 caseless)"
+  name: "low capacity MP-type magazine (.25 caseless)" # mono - larp weapon names
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -177,7 +177,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortPractice
-  name: "short magazine (.25 caseless practice)"
+  name: "low capacity MP-type magazine (.25 caseless practice)" # mono - larp weapon names
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider

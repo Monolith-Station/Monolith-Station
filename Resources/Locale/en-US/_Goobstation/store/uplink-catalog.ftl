@@ -27,7 +27,8 @@ uplink-signaller-desc = A device that can trigger signals at any distance. You c
 uplink-miniature-energy-crossbow-name = Miniature Energy Crossbow
 uplink-miniature-energy-crossbow-desc = The syndicate's energy crossbow, small, silent and deadly.
 
-uplink-hardlight-bow-name = Hardlight Bow
+ # mono - larp weapon names
+uplink-hardlight-bow-name = GE-9 MPEBW
 uplink-hardlight-bow-desc = A modern bow that can fabricate hardlight arrows, designed for silent takedowns of targets. Has 7 different firing modes. Can be folded.
 
 # Job-specific
@@ -55,20 +56,24 @@ uplink-contractor-baton-desc = A compact, specialised baton assigned to Syndicat
 uplink-weapon-burner-name = Burner Heavy Rifle
 uplink-weapon-burner-desc = The Burner Heavy Rifle, an excelent breaching and suppression weapon.
 
-uplink-WSPR-name = WSPR Bundle
+ # mono - larp weapon names
+uplink-WSPR-name = KMP-WSPR Bundle
 uplink-WSPR-desc = PPPSSSSHhhhh.
 
 uplink-c20r-name = C-20r
 uplink-c20r-desc = Old faithful: The classic C-20r Submachine Gun.
 
-uplink-buldog-name = Bulldog
+ # mono - larp weapon names
+uplink-buldog-name = KSG-87
 uplink-buldog-desc = A magazine fed fullauto shotgun.
 
-uplink-l6-saw-name = L6 Saw Bundle
-uplink-l6-saw-desc = More dakka: The iconic L6 light machine gun.
+ # mono - larp weapon names
+uplink-l6-saw-name = L6B-SAW
+uplink-l6-saw-desc = More dakka: The iconic L6B light machine gun.
 
+ # mono - larp weapon names
 uplink-m90-name = M-90
-uplink-m90-desc = An M-90 combat rifle.
+uplink-m90-desc = An M-90 combat rifle, feeding from STANAG .20 rifle magazines.
 
 uplink-dualetta-bundle-name = Dualetta Bundle
 uplink-dualetta-bundle-desc = Comes with 2 Dualetta pistols, 2 machine pistol magazines, combat gloves, noir suit, detectives trenchcoat, and laceup shoes.
@@ -105,7 +110,8 @@ uplink-high-caliber-explosive-magazine-desc = Rifle magazine with 15 explosive c
 uplink-high-caliber-box-name = .50 Ammo box
 uplink-high-caliber-box-desc = A box of 30 .50 caliber anti-materiel rounds.
 
-uplink-highcap-pistol-mag-name = High Capacity .35 Pistol Magazine
+ # mono - larp weapon names
+uplink-highcap-pistol-mag-name = PTL-type magazine (.35 auto)
 uplink-highcap-pistol-mag-desc = High capacity pistol magazine holds 4 extra bullets for a total of 16 rounds.
 
 # Mechs

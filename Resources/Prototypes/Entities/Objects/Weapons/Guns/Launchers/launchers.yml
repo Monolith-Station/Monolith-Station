@@ -22,7 +22,7 @@
   - type: Multishot # Goobstation
 
 - type: entity
-  name: china lake
+  name: GLM-30 # mono - larp weapon names
   parent: [BaseWeaponLauncher, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponLauncherChinaLake
   description: PLOOP.
