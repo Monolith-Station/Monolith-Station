@@ -74,7 +74,7 @@
   name: P36 # mono - larp weapon names
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses .35 PTE mags. # mono - larp weapon names
+  description: A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses 9x19mm PTE mags. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -107,7 +107,7 @@
   name: P36C
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: WeaponPistolEchis
-  description: A P36 for use by cyborgs. Creates .35 ammo on the fly from an internal ammo fabricator, which slowly self-charges. # mono - larp weapon names
+  description: A P36 for use by cyborgs. Creates 9x19mm ammo on the fly from an internal ammo fabricator, which slowly self-charges. # mono - larp weapon names
   components:
   - type: Gun
     fireRate: 5
@@ -191,7 +191,7 @@
   name: MK58 # mono - larp weapon names
   parent: [BaseWeaponPistol, BaseRestrictedContraband]
   id: WeaponPistolMk58
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo from PTE-type magazines. # mono - larp weapon names
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses 9x19mm auto ammo from PTE-type magazines. # mono - larp weapon names
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi

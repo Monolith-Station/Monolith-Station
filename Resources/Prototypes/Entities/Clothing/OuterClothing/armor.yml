@@ -39,7 +39,7 @@
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseRestrictedContraband]
   id: ClothingOuterArmorRiot
   name: MBAC-H full body protective gear # mono
-  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. # mono
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBulletproof
-  name: TV-920 full body protective system # mono
-  description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+  name: MBAC-X full body protective system # mono
+  description: A full body armor system that provides excellent ballistic protection, but poor blunt and thermal protection. # mono
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorReflective
-  name: reflective vest
+  name: MBAC-R directed energy weapon protection system # mono
   description: An armored vest with advanced shielding to protect against energy weapons.
   components:
   - type: Sprite
