@@ -23,10 +23,6 @@
         settings: short
     - type: Loadout
       prototypes: [ MercL1Gear ]
-    - type: RandomMetadata
-      nameSegments:
-        - NamesFirstMilitaryLeader
-        - NamesLastMilitary
 
 # l2
 
@@ -53,10 +49,6 @@
         settings: short
     - type: Loadout
       prototypes: [ MercL2Gear ]
-    - type: RandomMetadata
-      nameSegments:
-        - NamesFirstMilitaryLeader
-        - NamesLastMilitary
 
 # l3
 
@@ -83,7 +75,3 @@
         settings: short
     - type: Loadout
       prototypes: [ MercL3Gear ]
-    - type: RandomMetadata
-      nameSegments:
-        - NamesFirstMilitaryLeader
-        - NamesLastMilitary

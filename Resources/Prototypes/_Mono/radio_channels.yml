@@ -1,0 +1,7 @@
+- type: radioChannel
+  id: Military
+  name: chat-radio-military
+  keycode: 'i'
+  frequency: 2785
+  color: "#FF0040"
+  longRange: false # TELECOMMS SERVER FOR IT WILL BE ON THEIR SHIP

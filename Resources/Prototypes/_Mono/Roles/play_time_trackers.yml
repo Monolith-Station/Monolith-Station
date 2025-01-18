@@ -6,3 +6,6 @@
 
 - type: playTimeTracker
   id: JobMercenaryL3
+
+- type: playTimeTracker
+  id: JobMilitary

@@ -1,0 +1,24 @@
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: ClothingBackpackERTLeaderFilledMLTR
+  suffix: Filled, Military
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleLecter
+      - id: EncryptionKeyMilitary
+
+- type: entity
+  parent: ClothingBeltMilitaryWebbing
+  id: ClothingBeltMilitaryWebbingFilledMLTR
+  suffix: Filled, Military
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifle
+      - id: MagazineRifle
+      - id: MagazineRifle
+      - id: MagazineBoxRifleBig
+      - id: MedkitCombatFilled
+      - id: ExGrenade
+      - id: ExGrenade

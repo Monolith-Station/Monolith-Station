@@ -1,0 +1,29 @@
+- type: job
+  id: UNMCRifleman
+  name: job-name-unmc
+  description: job-description-military
+  playTimeTracker: JobMilitary
+  setPreference: false
+  startingGear: MilitaryGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-unmc
+  canBeAntag: false
+  access:
+  - MercL1
+  - MercL2
+  - Maintenance
+
+- type: startingGear
+  id: MilitaryGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNinja
+    back: ClothingBackpackERTLeaderFilledMLTR
+    mask: ClothingMaskGasSecurity
+    eyes: ClothingEyesHudMedSec
+    ears: ClothingHeadsetAltCommand
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitScaf
+    suitstorage: OxygenTankFilled
+    shoes: ClothingShoesBootsMagAdv
+    id: MercL2IDCard
+    belt: ClothingBeltMilitaryWebbingFilledMLTR

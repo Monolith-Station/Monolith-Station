@@ -2,29 +2,37 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitScaf
-  name: scaf hardsuit
-  description: A green and brown combat hardsuit. Old yet sturdy nonetheless.
+  name: M92 tacsuit # mono
+  description: A tacsuit used by the sector's military and peacekeeping forces. Very durable, very strong, very advanced. # mono
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
+    sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi # mono - sprites are recolored
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
-  - type: Armor # Kept original scaf stats
+    sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi # mono - sprites are recolored
+  - type: Armor # mono - rebalanced to fit for admeme shit, stronger than ERT
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.4
-        Heat: 0.9
-        Caustic: 0.9
-  - type: ExplosionResistance
-    damageCoefficient: 0.8
-  - type: PressureProtection
-    highPressureMultiplier: 0.5
+        Blunt: 0.35
+        Slash: 0.35
+        Piercing: 0.35
+        Heat: 0.25
+        Cold: 0.3
+        Caustic: 0.25
+        Radiation: 0
+  - type: ExplosionResistance # mono - buffed
+    damageCoefficient: 0.45
+  - type: PressureProtection # mono - buffed
+    highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+  - type: TemperatureProtection # mono
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
+  - type: FireProtection # mono
+    reduction: 0.8
+  - type: ClothingSpeedModifier # mono - buffed
+    walkModifier: 0.95
+    sprintModifier: 0.95
   - type: HeldSpeedModifier
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitScaf
+  - type: ToggleableClothing # mono - fix for modsuits refactoring this shit or whatever
+    clothingPrototypes: 
+      head: ClothingHeadHelmetHardsuitScaf

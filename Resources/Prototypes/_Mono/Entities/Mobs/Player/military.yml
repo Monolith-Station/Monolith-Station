@@ -1,0 +1,27 @@
+- type: entity
+  id: RandomHumanoidMilitarySpawner
+  name: UNMC Rifleman
+  suffix: Admeme, L2 Access
+  components:
+    - type: Sprite
+      sprite: Mobs/Species/Human/parts.rsi
+      state: full
+    - type: RandomHumanoidSpawner
+      settings: UNMCRifleman
+
+- type: randomHumanoidSettings
+  id: UNMCRifleman
+  parent: EventHumanoid
+  components:
+    - type: GhostRole
+      name: ghost-role-information-military-name
+      description: ghost-role-information-military-description
+      rules: ghost-role-information-military-rules
+      raffle:
+        settings: short
+    - type: Loadout
+      prototypes: [ MilitaryGear ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary

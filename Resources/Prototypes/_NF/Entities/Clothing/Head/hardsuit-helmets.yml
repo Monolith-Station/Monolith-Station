@@ -1,26 +1,32 @@
 #SCAF Helmet
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ClothingHeadHardsuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons] # mono - add sec/med hud capabilites
   id: ClothingHeadHelmetHardsuitScaf
-  name: scaf hardsuit helmet
-  description: A robust, strong helmet. On the inside smells of pent up anger.
-  categories: [ HideSpawnMenu ]
+  name: M92 tacsuit helmet # mono
+  description: A robust, strong helmet. On the inside smells of pent up anger. # mono
+  #categories: [ HideSpawnMenu ] # mono - why stupid all the other helmets appear in there
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hardsuits/scaf.rsi
+    sprite: _NF/Clothing/Head/Hardsuits/scaf.rsi # mono - sprites are recolored
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hardsuits/scaf.rsi
+    sprite: _NF/Clothing/Head/Hardsuits/scaf.rsi # mono - sprites are recolored
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
-  - type: Armor
+  - type: FlashImmunity # mono
+  - type: EyeProtection # mono
+    protectionTime: 15
+  - type: Armor # mono - buffed armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.8
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
   - type: PointLight
     radius: 7
     energy: 2
-    #color: "#d6adff"
+    color: "#d6adff" # mono - uncomments this
+  - type: NightVision # mono
+    flashDurationMultiplier: 1.2
+    isEquipment: true

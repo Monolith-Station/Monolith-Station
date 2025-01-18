@@ -1,0 +1,14 @@
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyMilitary
+  name: military encryption key
+  description: An encryption key used by the sectors military and peacekeeping forces.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Military
+    defaultChannel: Military
+  - type: Sprite
+    layers:
+    - state: crypt_unmc
+    - state: hos_label

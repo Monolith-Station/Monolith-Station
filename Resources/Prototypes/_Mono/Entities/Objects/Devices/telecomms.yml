@@ -1,0 +1,9 @@
+- type: entity
+  parent: TelecomServer
+  id: TelecomServerFilledMilitary
+  suffix: Military
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyMilitary
