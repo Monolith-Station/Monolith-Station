@@ -1,0 +1,15 @@
+# scaf tacsuit
+- type: entity
+  id: SuitStorageScaf
+  parent: SuitStorageBase
+  suffix: M92/Scaf, L2 Access
+  components:
+  - type: StorageFill
+    contents:
+        - id: OxygenTankFilled
+        - id: NitrogenTankFilled
+        - id: ClothingOuterHardsuitScaf
+        - id: ClothingShoesBootsMagAdv
+        - id: ClothingMaskGasSecurity
+  - type: AccessReader
+    access: [["MercL2"]]
