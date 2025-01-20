@@ -1,5 +1,5 @@
-server-currency-name-singular = Goob Coin
-server-currency-name-plural = Goob Coins
+server-currency-name-singular = Mono Coin
+server-currency-name-plural = Mono Coins
 
 ## Commands
 
