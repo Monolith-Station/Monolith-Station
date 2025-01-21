@@ -1,7 +1,7 @@
 Name: Monolith
 Order: -1
 Entries:
-- author: Ark
+- author: ark1368
   changes:
     - type: Remove
       message: LRP
@@ -12,6 +12,6 @@ Entries:
 - author: ark1368
   changes:
     - type: Fix
-      message: Admin Changelog Order
+      message: Fixed admin changelog order.
   id: 2
   time: '2025-01-21T02:45:05.0000000+00:00'
