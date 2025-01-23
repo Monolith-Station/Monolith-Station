@@ -1,0 +1,33 @@
+- type: entity
+  id: MagazineGrenadeBlastInfinite
+  name: extreme capacity blast grenade cartridge
+  parent: BaseMagazineGrenade
+  components:
+  - type: BallisticAmmoProvider
+    proto: GrenadeBlast
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Grenade
+    capacity: 500000
+
+- type: entity
+  id: PowerCageRecharging
+  parent: BasePowerCage
+  name: macroreactor power cage
+  description: A rechargeable power cage for big devices. Increased capacity for increased power levels.
+  components:
+  - type: Sprite
+    sprite: Objects/Power/power_cages.rsi
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: high
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Battery
+    maxCharge: 7200
+    startingCharge: 7200
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 120 # takes 1 minute to charge itself back to full
