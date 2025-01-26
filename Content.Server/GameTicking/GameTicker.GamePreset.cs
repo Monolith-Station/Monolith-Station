@@ -1,3 +1,4 @@
+using Content.Server.Ghost;
 using Content.Server.GameTicking.Presets;
 using Content.Server.Maps;
 using Content.Shared.CCVar;
@@ -6,7 +7,6 @@ using Robust.Shared.Player;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
-using Content.Server.Ghost;
 
 namespace Content.Server.GameTicking
 {
