@@ -17,7 +17,6 @@ public sealed partial class GhostGui : UIWidget
     public event Action? ReturnToBodyPressed;
     public event Action? GhostRolesPressed;
     public event Action? GhostBarPressed; // Goobstation - Ghost Bar
-	public event Action? ReturnToRoundPressed; // Goobstation - Respawn System
 
     public GhostGui()
     {
@@ -33,7 +32,6 @@ public sealed partial class GhostGui : UIWidget
         ReturnToBodyButton.OnPressed += _ => ReturnToBodyPressed?.Invoke();
         GhostRolesButton.OnPressed += _ => GhostRolesPressed?.Invoke();
         GhostBarButton.OnPressed += _ => GhostBarPressed?.Invoke(); // Goobstation - Ghost Bar
-		ReturnToRound.OnPressed += _ => ReturnToRoundPressed?.Invoke(); // Goobstation - Respawn System
     }
 
     public void Hide()

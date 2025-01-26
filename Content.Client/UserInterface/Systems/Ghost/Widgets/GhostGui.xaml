@@ -6,6 +6,5 @@
         <Button Name="GhostWarpButton" Text="{Loc ghost-gui-ghost-warp-button}" />
         <Button Name="GhostRolesButton" />
         <Button Name="GhostBarButton" Text="{Loc 'ghost-target-window-ghostbar'}" /> <!-- Goobstation - Ghost Bar -->
-		<Button Name="ReturnToRound" Text="{Loc ghost-gui-return-to-round-button}" /> <!-- Goobstation - Respawn System -->
     </BoxContainer>
 </widgets:GhostGui>
