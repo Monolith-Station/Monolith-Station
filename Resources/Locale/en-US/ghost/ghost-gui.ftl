@@ -1,4 +1,4 @@
-ghost-gui-return-to-body-button = Return to body
+ghost-gui-return-to-body-button = Return to Body
 ghost-gui-ghost-warp-button = Ghost Warp
 ghost-gui-ghost-roles-button = Ghost Roles ({$count})
 ghost-gui-toggle-ghost-visibility-popup-on = Enabled visibility of ghosts.
@@ -33,4 +33,5 @@ ghost-roles-window-no-roles-available-label = There are currently no available g
 ghost-roles-window-rules-footer = The button will enable after {$time} seconds (this delay is to make sure you read the rules).
 
 ghost-return-to-body-title = Return to Body
-ghost-return-to-body-text = Med is so competent that you are being revived! Return to your body?
+ghost-return-to-body-text = You are being revived! Return to your body?
+ghost-gui-return-to-round-button = Return to Round
