@@ -1011,6 +1011,8 @@
   loadouts:
   - HeadofSecurityCoat
   - HeadofSecurityWinterCoat
+  - ArmorVest #Goobstation change
+  - ArmorVestSlim #Goobstation change
 
 - type: loadoutGroup
   id: WardenHead
