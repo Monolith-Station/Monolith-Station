@@ -440,25 +440,3 @@
     averageEndTime: 240 # 4 hours - very long shift
     scheduledGameRules: !type:NestedSelector
       tableId: BasicGameRulesTable
-
-# Goob MRP
-- type: gamePreset
-  id: SurvivalIrregular
-  alias: [irregular]
-  showInVote: true
-  name: irregular-title
-  description: irregular-description
-  rules:
-  - IrregularStationEventScheduler
-  - BasicRoundstartVariation
-
-# Goob MRP
-- type: gamePreset
-  id: SurvivalIrregularExtended
-  alias: [irregular-extended]
-  showInVote: true
-  name: irregular-extended-title
-  description: irregular-extended-description
-  rules:
-  - IrregularExtendedStationEventScheduler
-  - BasicRoundstartVariation
