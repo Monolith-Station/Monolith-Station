@@ -107,6 +107,7 @@
   rules:
     - Secret
     - BasicStationEventScheduler
+    - MeteorSwarmScheduler # Mono - Back in business!
     - BasicRoundstartVariation
 
 - type: gamePreset
