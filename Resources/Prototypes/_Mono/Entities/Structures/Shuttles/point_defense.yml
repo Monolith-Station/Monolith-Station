@@ -108,7 +108,7 @@
   parent: BaseWeaponTurretPD
   id: WeaponTurretPDK30
   name: K-30 point defense turret
-  description: A basic .25 caseless PD turret. Produces ammo from internal ammo fabricators, automatically targets meteors. Low-range though.
+  description: A basic .25 caseless PD turret. Produces ammo from internal ammo fabricators, automatically targets meteors.
   suffix: PointDefence
   components:
   - type: NpcFactionMember
