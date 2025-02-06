@@ -78,21 +78,6 @@ public sealed partial class GoobCVars
     public static readonly CVarDef<bool> SiloEnabled =
         CVarDef.Create("goob.silo_enabled", true, CVar.SERVER | CVar.REPLICATED);
 
-    /// <summary>
-    ///     Broadcast to all players that a player has ragequit.
-    /// </summary>
-    public static readonly CVarDef<bool> PlayerRageQuitNotify =
-        CVarDef.Create("player.ragequit.notify", true, CVar.SERVERONLY);
-
-    /// <summary>
-    ///     Time between being eligible for a "rage quit" after reaching a damage threshold.
-    ///     Default is 5f.
-    /// </summary>
-    public static readonly CVarDef<float> PlayerRageQuitTimeThreshold =
-        CVarDef.Create("player.ragequit.threshold", 5f);
-
-    #endregion PlayerListener
-
     #region Surgery
 
     public static readonly CVarDef<bool> CanOperateOnSelf =
@@ -164,7 +149,7 @@ public sealed partial class GoobCVars
 
     public static readonly CVarDef<bool> BlobCanGrowInSpace =
         CVarDef.Create("blob.grow_space", true, CVar.SERVER);
-
+    
     #endregion
 
     #region Mechs
@@ -174,19 +159,6 @@ public sealed partial class GoobCVars
     /// </summary>
     public static readonly CVarDef<bool> MechGunOutsideMech =
         CVarDef.Create("mech.gun_outside_mech", true, CVar.SERVER | CVar.REPLICATED);
-
-    #endregion
-
-    #region RMC
-
-    public static readonly CVarDef<int> RMCPatronLobbyMessageTimeSeconds =
-        CVarDef.Create("rmc.patron_lobby_message_time_seconds", 30, CVar.REPLICATED | CVar.SERVER);
-
-    public static readonly CVarDef<int> RMCPatronLobbyMessageInitialDelaySeconds =
-        CVarDef.Create("rmc.patron_lobby_message_initial_delay_seconds", 5, CVar.REPLICATED | CVar.SERVER);
-
-    public static readonly CVarDef<string> RMCDiscordAccountLinkingMessageLink =
-        CVarDef.Create("rmc.discord_account_linking_message_link", "", CVar.REPLICATED | CVar.SERVER);
 
     #endregion
 }
