@@ -1,0 +1,10 @@
+- type: entity
+  id: BulletCaselessAutocannon
+  name: bullet (20x165mm PD caseless)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 120

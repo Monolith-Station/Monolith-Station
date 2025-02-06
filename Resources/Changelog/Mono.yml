@@ -113,3 +113,11 @@ Entries:
         away!
   id: 16
   time: '2025-02-06T05:14:35.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Added 20mm caseless PD turret variant
+    - type: Tweak
+      message: PD turret range changed from 60 to 35
+  id: 17
+  time: '2025-02-06T18:07:00.0000000+00:00'

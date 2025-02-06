@@ -10,6 +10,8 @@
     - type: Clickable
     - type: InteractionOutline
     - type: Actions
+    - type: Anchorable
+      delay: 10
     - type: Fixtures
       fixtures:
         fix1:
@@ -82,9 +84,9 @@
         SoundTargetInLOS: !type:SoundPathSpecifier
           path: /Audio/_Mono/Weapons/Misc/pdtarget.ogg
         VisionRadius: !type:Single
-          60.0
+          35.0
         AggroVisionRadius: !type:Single
-          60.0
+          35.0
     - type: MouseRotator
       angleTolerance: 5
       rotationSpeed: 360
@@ -104,6 +106,8 @@
       autoRecharge: true
       autoRechargeRate: 100
 
+# K-30 (.25 caseless)
+
 - type: entity
   parent: BaseWeaponTurretPD
   id: WeaponTurretPDK30
@@ -117,7 +121,7 @@
 
 - type: entity
   parent: BaseFlatpack
-  id: PDTurretFlatpack
+  id: PDTurretFlatpackK30
   name: K-30 PD turret flatpack
   description: A flatpack used for constructing a K-30 point defence turret. Requires no external connections to function.
   components:
@@ -125,3 +129,43 @@
     entity: WeaponTurretPDK30
   - type: StaticPrice
     price: 250
+
+# ML-550 (20mm caseless)
+
+- type: entity
+  parent: BaseWeaponTurretPD
+  id: WeaponTurretPDML550
+  name: ML-550 point defense turret
+  description: A heavy point defense turret firing 20x165mm PD. Produces ammo from internal ammo fabricators, automatically targets meteors.
+  suffix: PointDefence
+  components:
+  - type: NpcFactionMember
+    factions:
+    - PointDefence
+  - type: ProjectileBatteryAmmoProvider
+    proto: CartridgeCaselessAutocannon
+    fireCost: 500
+  - type: Gun
+    minAngle: 1
+    maxAngle: 2
+    angleIncrease: 1
+    angleDecay: 4
+    fireRate: 4
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/lmg_empty_alarm.ogg
+
+- type: entity
+  parent: BaseFlatpack
+  id: PDTurretFlatpackML550
+  name: ML-550 PD turret flatpack
+  description: A flatpack used for constructing a ML-550 point defence turret. Requires no external connections to function.
+  components:
+  - type: Flatpack
+    entity: WeaponTurretPDML550
+  - type: StaticPrice
+    price: 1000
