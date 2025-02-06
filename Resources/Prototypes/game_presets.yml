@@ -6,43 +6,8 @@
   showInVote: true # secret
   description: survival-description
   rules:
-    # - MeteorSwarmScheduler Goobstation - nuh uh
+    - MeteorSwarmScheduler # Mono - Back in business!
     - RampingStationEventScheduler
-    - BasicRoundstartVariation
-
-# Goob MRP
-- type: gamePreset
-  id: SurvivalHellshift
-  alias:
-    - hellshift
-  showInVote: true
-  name: hellshift-title
-  description: hellshift-description
-  rules:
-    - HellshiftStationEventScheduler
-    - BasicRoundstartVariation
-    - SubGamemodesRule
-
-# Goob MRP
-- type: gamePreset
-  id: SurvivalIrregular
-  alias: [irregular]
-  showInVote: true
-  name: irregular-title
-  description: irregular-description
-  rules:
-    - IrregularStationEventScheduler
-    - BasicRoundstartVariation
-
-# Goob MRP
-- type: gamePreset
-  id: SurvivalIrregularExtended
-  alias: [irregular-extended]
-  showInVote: true
-  name: irregular-extended-title
-  description: irregular-extended-description
-  rules:
-    - IrregularExtendedStationEventScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -75,7 +40,7 @@
     - Heretic
     - BlobGameMode
     - LoneAbductorSpawn
-    # - KesslerSyndromeScheduler Goobstation - nuh uh
+    - KesslerSyndromeScheduler # Mono - Back in business!
     - RampingStationEventScheduler
     - Changeling # Goobstation - changeling playtest
     - BasicRoundstartVariation
@@ -117,7 +82,7 @@
   description: extended-description
   rules:
   - BasicStationEventScheduler
-  # - MeteorSwarmScheduler Goobstation - nuh uh
+  - MeteorSwarmScheduler # Mono - Back in business!
   - BasicRoundstartVariation
 
 - type: gamePreset
@@ -142,6 +107,7 @@
   rules:
     - Secret
     - BasicStationEventScheduler
+    - BasicRoundstartVariation
 
 - type: gamePreset
   id: SecretExtended #For Admin Use: Runs Extended but shows "Secret" in lobby.
@@ -152,7 +118,7 @@
   description: secret-description
   rules:
     - BasicStationEventScheduler
-  #  - MeteorSwarmScheduler Goobstation - nuh uh
+    - MeteorSwarmScheduler # Mono - Back in business!
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -188,7 +154,7 @@
     - Traitor
     - SubGamemodesRule
     - BasicStationEventScheduler
-  #  - MeteorSwarmScheduler Goobstation - nuh uh
+    - MeteorSwarmScheduler # Mono - Back in business!
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -215,7 +181,7 @@
     - Nukeops
     - SubGamemodesRule
     - BasicStationEventScheduler
-  #  - MeteorSwarmScheduler Goobstation - nuh uh
+    - MeteorSwarmScheduler # Mono - Back in business!
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -231,7 +197,7 @@
     - Revolutionary
     - SubGamemodesRule
     - BasicStationEventScheduler
-  #  - MeteorSwarmScheduler Goobstation - nuh uh
+    - MeteorSwarmScheduler # Mono - Back in business!
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -248,7 +214,7 @@
   rules:
   - Zombie
   - BasicStationEventScheduler
-#  - MeteorSwarmScheduler Goobstation - nuh uh
+  - MeteorSwarmScheduler # Mono - Back in business!
   - BasicRoundstartVariation
 
 - type: gamePreset
