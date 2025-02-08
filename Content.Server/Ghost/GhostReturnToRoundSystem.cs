@@ -59,7 +59,9 @@ public sealed class GhostReturnToRoundSystem : EntitySystem
         var deathTime = EnsureComp<GhostComponent>(uid).TimeOfDeath;
         var timeUntilRespawn = _cfg.GetCVar(CCVars.GhostRespawnTime);
         var timePast = (_gameTiming.CurTime - deathTime).TotalMinutes;
-        if (timePast >= timeUntilRespawn)
+        var timeRemaining = Math.Max(0, timeUntilRespawn - timePast);
+        
+        if (timeRemaining <= 0)
         {
             _playerManager.TryGetSessionById(userId, out var targetPlayer);
 
@@ -74,7 +76,7 @@ public sealed class GhostReturnToRoundSystem : EntitySystem
             return;
         }
 
-        message = Loc.GetString("ghost-respawn-time-left", ("time", (int) (timeUntilRespawn - timePast)));
+        message = Loc.GetString("ghost-respawn-time-left", ("time", (int)Math.Ceiling(timeRemaining)));
         wrappedMessage = Loc.GetString("chat-manager-server-wrap-message", ("message", message));
     }
 }
