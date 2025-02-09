@@ -18,7 +18,7 @@ public sealed partial class MeteorSwarmComponent : Component
     public int WaveCounter;
 
     [DataField]
-    public float MeteorVelocity = 3f;
+    public float MeteorVelocity = 10f;
 
     /// <summary>
     /// If true, meteors will be thrown from all angles instead of from a singular source
