@@ -12559,11 +12559,6 @@ entities:
     - type: Transform
       pos: -7.5,19.5
       parent: 2
-  - uid: 1807
-    components:
-    - type: Transform
-      pos: -6.5,18.5
-      parent: 2
 - proto: DefaultStationBeaconChemistry
   entities:
   - uid: 1808
@@ -12654,11 +12649,6 @@ entities:
     components:
     - type: Transform
       pos: -7.5,27.5
-      parent: 2
-  - uid: 1821
-    components:
-    - type: Transform
-      pos: -7.5,26.5
       parent: 2
 - proto: DefaultStationBeaconScience
   entities:
