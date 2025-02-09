@@ -348,6 +348,12 @@
     damage:
       types:
         Heat: -500
+  - type: AmbientSound
+    volume: 0
+    range: 10
+    enabled: true
+    sound:
+      path: /Audio/StationEvents/number_one.ogg
 
 - type: entity
   name: Mariah Carey
