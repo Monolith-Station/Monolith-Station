@@ -44,6 +44,7 @@
 - type: startingGear
   id: BlueshieldOfficerGear
   equipment:
+    shoes: ClothingShoesBootsCowboyBlackFilled
     eyes: ClothingEyesGlassesMedSec
     gloves: ClothingHandsGlovesCombat
     id: BlueshieldPDA
