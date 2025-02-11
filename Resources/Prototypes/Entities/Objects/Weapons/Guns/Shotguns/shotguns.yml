@@ -102,6 +102,64 @@
     price: 500
 
 - type: entity
+  name: KSG-87CB # mono - larp weapon names
+  # Don't parent to BaseWeaponShotgun because it differs significantly
+  parent: [BaseItem, BaseGunWieldable, BaseCentcommContraband]
+  id: WeaponShotgunBulldogCBurn
+  description: It's a magazine-fed shotgun designed for CBURN close quarters combat. Uses .50 shotgun shells.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Large
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: AmmoCounter
+  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: Gun
+    fireRate: 2
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineShotgunIncendiary
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineShotgun
+        whitelistFailPopup: gun-magazine-whitelist-fail
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineAmmoProvider
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+
+- type: entity
   name: double-barreled shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunDoubleBarreled

@@ -19,7 +19,7 @@
 - type: startingGear
   id: CBURNGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorBrown
+    jumpsuit: ClothingUniformJumpsuitMilitaryColorBlack
     back: ClothingBackpackDuffelCBURN
     mask: ClothingMaskGasERT
     eyes: ClothingEyesGlassesSecurity
@@ -29,12 +29,16 @@
     shoes: ClothingShoesBootsCombatFilled
     id: CBURNPDA
     pocket1: RadioHandheld
-    pocket2: WeaponLaserGun
-    belt: ClothingBeltBandolier
+    pocket2: WeaponPulsePistol
+    belt: ClothingBeltSecurityFilled
   storage:
     back:
-    - WeaponShotgunDoubleBarreled
-    - BoxShotgunIncendiary
+    - WeaponShotgunBulldogCBurn
+    - MagazineShotgunIncendiary
+    - MagazineShotgunIncendiary
     - GrenadeFlashBang
+    - GrenadeFlashBang
+    - GrenadeIncendiary
+    - GrenadeIncendiary
     - PillAmbuzolPlus
     - PillAmbuzol
