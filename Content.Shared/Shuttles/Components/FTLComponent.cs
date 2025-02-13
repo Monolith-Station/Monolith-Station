@@ -16,17 +16,8 @@ public sealed partial class FTLComponent : Component
 {
     // TODO Full game save / add datafields
 
-    /// <summary>
-    /// The current state of the FTL.
-    /// </summary>
-    [DataField("state")]
+    [ViewVariables]
     public FTLState State = FTLState.Available;
-
-    /// <summary>
-    /// If this shuttle is part of a docked group doing FTL, this is the main shuttle controlling the FTL.
-    /// </summary>
-    [DataField("linkedShuttle")]
-    public EntityUid? LinkedShuttle;
 
     [ViewVariables(VVAccess.ReadWrite)]
     public StartEndTime StateTime;
