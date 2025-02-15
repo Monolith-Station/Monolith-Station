@@ -1,0 +1,11 @@
+- type: entity
+  parent: [GunSafeBaseSecure, BaseRestrictedContraband]
+  id: GunSafeRifleICWS
+  name: ICWS safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleM90A5
+      amount: 2
+    - id: MagazineLightRifle
+      amount: 4

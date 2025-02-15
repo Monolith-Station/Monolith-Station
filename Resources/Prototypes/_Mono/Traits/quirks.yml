@@ -16,6 +16,8 @@
   cost: 4
   components:
   - type: LiquorLifeline
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: BionicArm
@@ -25,6 +27,8 @@
   cost: 8
   components:
   - type: BionicArm
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: SelfAware
@@ -36,7 +40,111 @@
   - type: SelfAware
   speciesRestrictions:
   - IPC
-  - Diona
+
+- type: trait
+  id: CellularRegeneration
+  name: trait-cellular-regen-name
+  description: trait-cellular-regen-description
+  category: Quirks
+  cost: 8
+  components:
+  - type: PassiveDamage
+    allowedStates:
+    - Alive
+    damageCap: 250
+    damage:
+      types:
+        Toxin: -0.2
+        Genetic: -0.2
+        Airloss: -0.2
+  speciesRestrictions:
+  - IPC
+
+- type: trait
+  id: AdaptiveFibers
+  name: trait-adaptive-fibers-name
+  description: trait-adaptive-fibers-description
+  category: Quirks
+  cost: 8
+  components:
+  - type: PassiveDamage
+    allowedStates:
+    - Alive
+    damageCap: 250
+    damage:
+      types:
+        Brute: -0.2
+        Burn: -0.2
+        Airloss: -0.2
+  speciesRestrictions:
+  - IPC
+
+- type: trait
+  id: SurgerySpeed
+  name: trait-surgeon-name
+  description: trait-surgeon-description
+  category: Quirks
+  cost: 4
+  components:
+  - type: SurgerySpeedModifier
+    speedModifier: 2.25
+
+- type: trait
+  id: ClumsyTrait
+  name: trait-clumsy-name
+  description: trait-clumsy-description
+  category: Quirks
+  cost: -4
+  components:
+  - type: Clumsy
+    gunShootFailDamage:
+      types:
+        Blunt: 5
+        Piercing: 4
+      groups:
+        Burn: 3
+
+- type: trait
+  id: ThickSkin
+  name: trait-thick-skin-name
+  description: trait-thick-skin-description
+  category: Quirks
+  cost: 5
+  components:
+  - type: BlockInjection
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
+  speciesRestrictions:
+  - IPC
+
+- type: trait
+  id: ThievingHands
+  name: trait-thieving-name
+  description: trait-thieving-description
+  category: Quirks
+  cost: 10
+  components:
+  - type: Thieving
+
+- type: trait
+  id: CommonRadioImplant
+  name: trait-radio-implant-name
+  description: trait-radio-implant-description
+  category: Quirks
+  cost: 3
+  components:
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Common
+  - type: ActiveRadio
+    channels:
+    - Common
 
 - type: trait
   id: OsteogenesisImperfecta

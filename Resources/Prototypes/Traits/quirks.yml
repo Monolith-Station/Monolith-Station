@@ -16,6 +16,8 @@
   components:
   - type: LightweightDrunk
     boozeStrengthMultiplier: 2
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: Snoring
@@ -24,6 +26,8 @@
   category: Quirks
   components:
   - type: Snoring
+  speciesRestrictions:
+  - IPC
 
 - type: trait # Goob
   id: WheelchairBound
@@ -38,6 +42,8 @@
   - type: BuckleOnMapInit
     prototype: VehicleWheelchair
   - type: LegsStartParalyzed
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: Blindness
@@ -51,6 +57,8 @@
     - Blindable
   components:
   - type: PermanentBlindness
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: PoorVision
@@ -65,6 +73,8 @@
   components:
   - type: PermanentBlindness
     blindness: 4
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: Narcolepsy
@@ -76,6 +86,8 @@
   - type: Narcolepsy
     timeBetweenIncidents: 300, 600
     durationOfIncident: 10, 30
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: Unrevivable
@@ -85,6 +97,8 @@
   cost: -3
   components:
   - type: Unrevivable
+  speciesRestrictions:
+  - IPC
 
 - type: trait
   id: Muted
