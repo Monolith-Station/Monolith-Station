@@ -22,7 +22,7 @@
   name: bionic-arm-trait-name
   description: bionic-arm-trait-desc
   category: Quirks
-  cost: 6
+  cost: 8
   components:
   - type: BionicArm
 
@@ -37,3 +37,12 @@
   speciesRestrictions:
   - IPC
   - Diona
+
+- type: trait
+  id: OsteogenesisImperfecta
+  name: osteogenesis-imperfecta-trait-name
+  description: osteogenesis-imperfecta-trait-desc
+  category: Quirks
+  cost: -4
+  components:
+  - type: BrittleBones

@@ -49,9 +49,17 @@ public sealed partial class TraitPreferenceSelector : Control
 
     private void UpdateCostLabel()
     {
-        var sign = _cost >= 0 ? "+" : "";
-        _costLabel.Text = $"{sign}{_cost}";
-        _costLabel.Modulate = _cost >= 0 ? Color.FromHex("#FF4040") : Color.FromHex("#40FF40");
+        if (_cost == 0)
+        {
+            _costLabel.Text = "0";
+            _costLabel.Modulate = Color.FromHex("#C8C8C8");
+        }
+        else
+        {
+            var sign = _cost >= 0 ? "+" : "";
+            _costLabel.Text = $"{sign}{_cost}";
+            _costLabel.Modulate = _cost >= 0 ? Color.FromHex("#FF4040") : Color.FromHex("#40FF40");
+        }
     }
 
     private void OnCheckBoxToggled(BaseButton.ButtonToggledEventArgs args)

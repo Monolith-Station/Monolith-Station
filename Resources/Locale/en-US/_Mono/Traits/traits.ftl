@@ -12,3 +12,6 @@ trait-self-aware-description = You can examine your damage like a health analyze
 
 self-aware-examinable-verb-text = Check Damage
 self-aware-examinable-verb-message = Check Damage
+
+osteogenesis-imperfecta-trait-name = Osteogenesis Imperfecta
+osteogenesis-imperfecta-trait-desc = You have brittle bones, making you enter critical condition 50 points sooner than normal.

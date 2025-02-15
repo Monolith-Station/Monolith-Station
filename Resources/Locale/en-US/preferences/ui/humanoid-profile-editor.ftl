@@ -60,6 +60,6 @@ humanoid-profile-editor-no-traits = No traits available
 humanoid-profile-editor-trait-count-hint = Points available: [{$current}/{$max}]
 
 trait-category-disabilities = Disabilities
-trait-category-speech = Speech traits
+trait-category-speech = Accents
 trait-category-quirks = Quirks
-trait-category-religion = Religion
+trait-category-religion = Religions
