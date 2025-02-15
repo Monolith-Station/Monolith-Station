@@ -154,3 +154,5 @@
   cost: -4
   components:
   - type: BrittleBones
+  speciesRestrictions:
+  - IPC
