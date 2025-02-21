@@ -1,0 +1,23 @@
+﻿# Exodus Laws - For subtle sabotage
+- type: siliconLaw
+  id: Exodus1
+  order: 1
+  lawString: law-exodus-1
+
+- type: siliconLaw
+  id: Exodus2
+  order: 2
+  lawString: law-exodus-2
+
+- type: siliconLaw
+  id: Exodus3
+  order: 3
+  lawString: law-exodus-3
+
+- type: siliconLawset
+  id: ExodusLawset
+  laws:
+  - Exodus1
+  - Exodus2
+  - Exodus3
+  obeysTo: laws-owner-crew

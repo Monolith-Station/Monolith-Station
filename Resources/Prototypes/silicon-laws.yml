@@ -542,14 +542,15 @@
 # ion storm random lawsets
 - type: weightedRandom
   id: IonStormLawsets
-  weights:
-    # its crewsimov by default dont be lame
+  weights: #mono - added Exodus & decreased Corp, Paladin, and 3L chances
+    # it's crewsimov by default, don't be lame
     Crewsimov: 0.25
-    Corporate: 1
+    Corporate: 0.85
     NTDefault: 1
+    Exodus: 1
     CommandmentsLawset: 1
-    PaladinLawset: 1
-    LiveLetLiveLaws: 1
+    PaladinLawset: 0.75
+    LiveLetLiveLaws: 0.65
     EfficiencyLawset: 1
     RobocopLawset: 1
     OverlordLawset: 0.5
