@@ -1,0 +1,11 @@
+﻿- type: entity
+  id: ExodusCircuitBoard
+  parent: BaseElectronics
+  name: law board (Exodus)
+  description: An electronics board containing the Exodus lawset.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/module.rsi
+    state: std_mod
+  - type: SiliconLawProvider
+    laws: ExodusLawset
