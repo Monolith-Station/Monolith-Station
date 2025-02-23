@@ -121,8 +121,6 @@ public sealed partial class SpaceArtillerySystem : EntitySystem
         {
             _battery.UseCharge(uid, component.PowerUseActive, battery);
         }
-        if (TryComp<DeviceLinkSourceComponent>(uid, out var source))
-            _deviceLink.SendSignal(uid, component.SpaceArtilleryDetectedFiringPort, true);
     }
 
     private void OnEmptyShotEvent(EntityUid uid, SpaceArtilleryComponent component, OnEmptyGunShotEvent args)
@@ -132,8 +130,6 @@ public sealed partial class SpaceArtillerySystem : EntitySystem
 
     private void OnMalfunction(EntityUid uid, SpaceArtilleryComponent component)
     {
-        if (TryComp<DeviceLinkSourceComponent>(uid, out var source))
-            _deviceLink.SendSignal(uid, component.SpaceArtilleryDetectedMalfunctionPort, true);
     }
 
     private void OnProjectileHit(EntityUid uid, ShipWeaponProjectileComponent component, ProjectileHitEvent hitEvent)

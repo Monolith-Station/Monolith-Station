@@ -33,16 +33,4 @@ public sealed partial class SpaceArtilleryComponent : Component
     [DataField("spaceArtilleryFirePort", customTypeSerializer: typeof(PrototypeIdSerializer<SinkPortPrototype>))]
     public string SpaceArtilleryFirePort = "SpaceArtilleryFire";
 
-    ///Source Ports
-    /// <summary>
-    /// The port that gets set to high while the alarm is in the danger state, and low when not.
-    /// </summary>
-    [DataField("spaceArtilleryDetectedFiringPort", customTypeSerializer: typeof(PrototypeIdSerializer<SourcePortPrototype>))]
-    public string SpaceArtilleryDetectedFiringPort = "SpaceArtilleryDetectedFiring";
-
-    /// <summary>
-    /// The port that gets set to high while the alarm is in the danger state, and low when not.
-    /// </summary>
-    [DataField("spaceArtilleryDetectedMalfunctionPort", customTypeSerializer: typeof(PrototypeIdSerializer<SourcePortPrototype>))]
-    public string SpaceArtilleryDetectedMalfunctionPort = "SpaceArtilleryDetectedMalfunction";
 }
