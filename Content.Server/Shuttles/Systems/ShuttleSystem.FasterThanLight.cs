@@ -233,7 +233,6 @@ public sealed partial class ShuttleSystem
 
         if (TryComp<PhysicsComponent>(shuttleUid, out var shuttlePhysics))
         {
-
             // Too large to FTL
             if (FTLMassLimit > 0 &&  shuttlePhysics.Mass > FTLMassLimit)
             {
@@ -245,6 +244,30 @@ public sealed partial class ShuttleSystem
         if (HasComp<PreventPilotComponent>(shuttleUid))
         {
             reason = Loc.GetString("shuttle-console-prevent");
+            return false;
+        }
+
+        // Check for powered FTL drive
+        var query = AllEntityQuery<FTLDriveComponent>();
+        var hasPoweredDrive = false;
+
+        while (query.MoveNext(out var driveUid, out var drive))
+        {
+            if (TryComp<TransformComponent>(driveUid, out var transform) && transform.GridUid == shuttleUid)
+            {
+                if (!drive.Powered)
+                {
+                    reason = Loc.GetString("shuttle-console-ftl-drive-unpowered");
+                    return false;
+                }
+                hasPoweredDrive = true;
+                break;
+            }
+        }
+
+        if (!hasPoweredDrive)
+        {
+            reason = Loc.GetString("shuttle-console-no-powered-ftl-drive");
             return false;
         }
 
@@ -350,7 +373,7 @@ public sealed partial class ShuttleSystem
     {
         if (!dockedShuttles.Add(shuttleUid))
             return;  // Already processed this shuttle
-        
+
         var docks = _dockSystem.GetDocks(shuttleUid);
         foreach (var dock in docks)
         {
@@ -458,13 +481,13 @@ public sealed partial class ShuttleSystem
         foreach (var dockedUid in dockedShuttles)
         {
             if (dockedUid == uid) continue;
-            
+
             var dockedXform = _xformQuery.GetComponent(dockedUid);
             var mainPos = _transform.GetWorldPosition(uid);
             var dockedPos = _transform.GetWorldPosition(dockedUid);
             var mainRot = _transform.GetWorldRotation(uid);
             var dockedRot = _transform.GetWorldRotation(dockedUid);
-            
+
             // Store position and rotation relative to main shuttle
             // We need to rotate the relative position by the inverse of the main shuttle's rotation
             var relativePos = dockedPos - mainPos;
@@ -603,13 +626,13 @@ public sealed partial class ShuttleSystem
         foreach (var dockedUid in dockedShuttles)
         {
             if (dockedUid == uid) continue;
-            
+
             var dockedXform = _xformQuery.GetComponent(dockedUid);
             var mainPos = _transform.GetWorldPosition(uid);
             var dockedPos = _transform.GetWorldPosition(dockedUid);
             var mainRot = _transform.GetWorldRotation(uid);
             var dockedRot = _transform.GetWorldRotation(dockedUid);
-            
+
             // Store position and rotation relative to main shuttle
             var dockConnections = new List<(EntityUid DockA, EntityUid DockB)>();
             var docks = _dockSystem.GetDocks(dockedUid);
@@ -669,10 +692,10 @@ public sealed partial class ShuttleSystem
 
             var dockedXform = _xformQuery.GetComponent(dockedUid);
             var (relativePos, relativeRot, dockConnections) = relativeTransforms[dockedUid];
-            
+
             var mainNewPos = _transform.GetWorldPosition(uid);
             var mainNewRot = _transform.GetWorldRotation(uid);
-            
+
             var newPos = mainNewPos + relativePos;
             var newRot = mainNewRot + relativeRot;
 
@@ -686,7 +709,7 @@ public sealed partial class ShuttleSystem
             // Re-establish all docking connections
             foreach (var (dockA, dockB) in dockConnections)
             {
-                if (!TryComp<DockingComponent>(dockA, out var dockCompA) || 
+                if (!TryComp<DockingComponent>(dockA, out var dockCompA) ||
                     !TryComp<DockingComponent>(dockB, out var dockCompB))
                     continue;
 
