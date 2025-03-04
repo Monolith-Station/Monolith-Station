@@ -152,6 +152,15 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             return;
         }
 
+        // Check if target and projectile are on different maps/z-levels
+        var projectileXform = Transform(uid);
+        var targetXform = Transform(args.OtherEntity);
+        if (projectileXform.MapID != targetXform.MapID)
+        {
+            args.Cancelled = true;
+            return;
+        }
+
         if ((component.Shooter == args.OtherEntity || component.Weapon == args.OtherEntity) &&
             component.Weapon != null && _tag.HasTag(component.Weapon.Value, GunCanAimShooterTag) &&
             TryComp(uid, out TargetedProjectileComponent? targeted) && targeted.Target == args.OtherEntity)
@@ -168,6 +177,14 @@ public abstract partial class SharedProjectileSystem : EntitySystem
     {
         if (TryComp<RequireProjectileTargetComponent>(args.OtherEntity, out var requireTarget) && requireTarget.IgnoreThrow && requireTarget.Active)
             args.Cancelled = true;
+            
+        // Check if target and projectile are on different maps/z-levels
+        var projectileXform = Transform(uid);
+        var targetXform = Transform(args.OtherEntity);
+        if (projectileXform.MapID != targetXform.MapID)
+        {
+            args.Cancelled = true;
+        }
     }
 
     public void SetShooter(EntityUid id, ProjectileComponent component, EntityUid shooterId)

@@ -49,6 +49,10 @@ public sealed class HomingProjectileSystem : EntitySystem
 
             if (!_xformQuery.TryComp(homing.Target, out var targetXform))
                 continue;
+                
+            // Don't home in on targets on different maps/z-levels
+            if (xform.MapID != targetXform.MapID)
+                continue;
 
             var goalAngle = (_transform.GetMapCoordinates(targetXform).Position -
                              _transform.GetMapCoordinates(xform).Position).ToWorldAngle();

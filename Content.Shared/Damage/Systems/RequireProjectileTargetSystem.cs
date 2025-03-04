@@ -27,6 +27,16 @@ public sealed class RequireProjectileTargetSystem : EntitySystem
             return;
 
         var other = args.OtherEntity;
+        
+        // Check if target and projectile are on different maps/z-levels
+        var targetXform = Transform(ent);
+        var projectileXform = Transform(other);
+        if (targetXform.MapID != projectileXform.MapID)
+        {
+            args.Cancelled = true;
+            return;
+        }
+        
         // Goob edit start
         if (TryComp(other, out TargetedProjectileComponent? targeted) &&
             (targeted.Target == null || targeted.Target == ent))
