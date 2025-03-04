@@ -512,6 +512,10 @@ public sealed partial class ExplosionSystem
         if (_tileDefinitionManager[tileRef.Tile.TypeId] is not ContentTileDefinition tileDef)
             return;
 
+        // Mono
+        if (tileDef.Indestructible)
+            return;
+
         if (!CanCreateVacuum)
             canCreateVacuum = false;
         else if (tileDef.MapAtmosphere)
