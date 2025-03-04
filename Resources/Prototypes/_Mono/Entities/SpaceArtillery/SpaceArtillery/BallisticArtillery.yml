@@ -47,7 +47,7 @@
   - type: RadiationBlocker
     resistance: 8
   - type: RadarBlip
-    color: "#00A6FF"
+    radarColor: "#00A6FF"
     scale: 1
 
 # 90mm
@@ -90,7 +90,7 @@
     proto: 90mmBulletArmorPiercing
     fireCost: 50
   - type: RadarBlip
-    color: "#FF9100"
+    radarColor: "#FF9100"
     scale: 1
 
 # plasma medium
@@ -150,7 +150,7 @@
         sound:
           collection: MetalBreak
   - type: RadarBlip
-    color: "#C92BCC"
+    radarColor: "#C92BCC"
     scale: 1
 
 # Base
@@ -221,5 +221,5 @@
       machine_parts: !type:Container
   - type: FireControllable
   - type: RadarBlip
-    color: "#9999FF"
+    radarColor: "#9999FF"
     scale: 1
