@@ -1,3 +1,4 @@
+using Content.Shared._Mono.Ships;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.UI.MapObjects;
@@ -18,7 +19,7 @@ public abstract partial class SharedShuttleSystem : EntitySystem
     [Dependency] protected readonly SharedTransformSystem XformSystem = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
 
-    public const float FTLRange = 0f;
+    public const float FTLRange = 64f;
     public const float FTLBufferRange = 8f;
 
     private EntityQuery<MapGridComponent> _gridQuery;
@@ -157,6 +158,7 @@ public abstract partial class SharedShuttleSystem : EntitySystem
     public float GetFTLRange(EntityUid shuttleUid)
     {
         // Look for any powered FTL drives on the shuttle's grid
+        // FTL drive is now optional and only enhances range if present
         var query = AllEntityQuery<FTLDriveComponent>();
 
         while (query.MoveNext(out var driveUid, out var drive))
@@ -168,6 +170,7 @@ public abstract partial class SharedShuttleSystem : EntitySystem
             }
         }
 
+        // Always provide a default range, even without an FTL drive
         return FTLRange;
     }
 

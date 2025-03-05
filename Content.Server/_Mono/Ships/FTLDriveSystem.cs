@@ -1,10 +1,9 @@
 using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;
-using Content.Server.Shuttles.Components;
+using Content.Shared._Mono.Ships;
 using Content.Shared.Power;
-using Content.Shared.Shuttles.Components;
 
-namespace Content.Server.Shuttles.Systems;
+namespace Content.Server._Mono.Ships;
 
 public sealed class FTLDriveSystem : EntitySystem
 {

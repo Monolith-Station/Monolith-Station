@@ -247,30 +247,6 @@ public sealed partial class ShuttleSystem
             return false;
         }
 
-        // Check for powered FTL drive
-        var query = AllEntityQuery<FTLDriveComponent>();
-        var hasPoweredDrive = false;
-
-        while (query.MoveNext(out var driveUid, out var drive))
-        {
-            if (TryComp<TransformComponent>(driveUid, out var transform) && transform.GridUid == shuttleUid)
-            {
-                if (!drive.Powered)
-                {
-                    reason = Loc.GetString("shuttle-console-ftl-drive-unpowered");
-                    return false;
-                }
-                hasPoweredDrive = true;
-                break;
-            }
-        }
-
-        if (!hasPoweredDrive)
-        {
-            reason = Loc.GetString("shuttle-console-no-powered-ftl-drive");
-            return false;
-        }
-
         var ev = new ConsoleFTLAttemptEvent(shuttleUid, false, string.Empty);
         RaiseLocalEvent(shuttleUid, ref ev, true);
 

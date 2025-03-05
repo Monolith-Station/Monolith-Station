@@ -1,9 +1,10 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Shared.Shuttles.Components;
+namespace Content.Shared._Mono.Ships;
 
 /// <summary>
-/// A component that allows a shuttle to engage FTL travel when powered.
+/// A component that enhances a shuttle's FTL capabilities when powered.
+/// FTL travel is still possible without this component, but the range is limited.
 /// </summary>
 [RegisterComponent]
 [NetworkedComponent]
@@ -24,5 +25,5 @@ public sealed partial class FTLDriveComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField("range")]
     [AutoNetworkedField]
-    public float Range = 256f;
+    public float Range = 512f;
 }
